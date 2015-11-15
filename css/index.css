@@ -1,0 +1,41 @@
+/* fix of Internet Explorer 10 in Windows 8 and Windows Phone 8*/
+@-webkit-viewport {
+  width: device-width; }
+
+@-moz-viewport {
+  width: device-width; }
+
+@-ms-viewport {
+  width: device-width; }
+
+@-o-viewport {
+  width: device-width; }
+
+@viewport {
+  width: device-width; }
+
+/* fix of Internet Explorer 10 in Windows 8 and Windows Phone 8*/
+/* fix of table fieldset in Forefox*/
+@-moz-document url-prefix() {
+  /* line 11, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+  fieldset {
+    display: table-cell; } }
+
+/* fix of table fieldset in Forefox*/
+/* line 15, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+body {
+  background-color: #ccc; }
+
+/* line 20, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+div {
+  outline: 2px dotted black; }
+
+/* line 24, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+iframe {
+  width: 100%;
+  min-height: 400px;
+  border: none; }
+
+/* line 30, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+.wrapMap {
+  padding-bottom: 80px; }
