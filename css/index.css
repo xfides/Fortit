@@ -17,25 +17,147 @@
 /* fix of Internet Explorer 10 in Windows 8 and Windows Phone 8*/
 /* fix of table fieldset in Forefox*/
 @-moz-document url-prefix() {
-  /* line 11, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+  /* line 26, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
   fieldset {
     display: table-cell; } }
 
 /* fix of table fieldset in Forefox*/
-/* line 15, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* Open-sans-light */
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('../fonts/openSansLight/open-sans-light.eot');
+  src: url('../fonts/openSansLight/open-sans-light.eot?#iefix') format('embedded-opentype'), url('../fonts/openSansLight/open-sans-light.woff2') format('woff2'), url('../fonts/openSansLight/open-sans-light.woff') format('woff'), url('../fonts/openSansLight/open-sans-light.ttf') format('truetype'), url('../fonts/openSansLight/open-sans-light.svg#open_sanslight') format('svg');
+  font-weight: 100;
+  font-style: normal; }
+
+/* Open-sans-bold */
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('../fonts/openSansBold/open-sans-bold-webfont.eot');
+  src: url('../fonts/openSansBold/open-sans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/openSansBold/open-sans-bold-webfont.woff2') format('woff2'), url('../fonts/openSansBold/open-sans-bold-webfont.woff') format('woff'), url('../fonts/openSansBold/open-sans-bold-webfont.ttf') format('truetype'), url('../fonts/openSansBold/open-sans-bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: bold;
+  font-style: normal; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 63, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
 body {
   background-color: #ccc; }
 
-/* line 20, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* line 67, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
 div {
-  outline: 2px dotted black; }
+  outline: 2px dotted red; }
 
-/* line 24, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.wrapHeader {
+  background-color: #fff;
+  background-image: url(../img/header__bg.jpg);
+  background-position: 0 0;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px; }
+
+/* line 14, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 48px; }
+/* line 25, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.nav__item {
+  display: inline-block;
+  padding-left: 22px;
+  padding-right: 22px;
+  outline: 1px solid red;
+  text-decoration: none; }
+/* line 32, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.nav__link {
+  color: #fff; }
+/* line 35, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.nav__link:hover {
+  color: #999;
+  text-decoration: none;
+  text-shadow: #fff 0.5px 0px, #fff 0.5px 0.5px, #fff 0px 0.5px, #fff -0.5px 0.5px, #fff -0.5px 0px, #fff -0.5px -0.5px, #fff 0px -0.5px, #fff 0.5px -0.5px; }
+
+/* line 42, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.calling {
+  float: right;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff; }
+  /* line 49, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling__russia {
+    display: block; }
+  /* line 52, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling__number {
+    display: block;
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold; }
+  /* line 59, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling__toOrder {
+    font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+    font-weight: 100;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 24px;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0; }
+  /* line 72, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling__toOrder:hover {
+    color: #999;
+    text-decoration: none; }
+
+/* line 78, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.headLines {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #fff; }
+  /* line 82, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .headLines__main {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px; }
+  /* line 91, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .headLines__discount {
+    font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0; }
+
+/* line 101, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.intro {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* line 111, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 iframe {
   width: 100%;
   min-height: 400px;
   border: none; }
 
-/* line 30, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/mapFooter */
 .wrapMap {
   padding-bottom: 80px; }
