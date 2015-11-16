@@ -128,7 +128,7 @@
                      class="request__input">
               <input type="text" placeholder="Электропочта для ответа"
                      class="request__input">
-              <input type="text" placeholder="Номер телефона для быстрой связи"
+              <input type="tel" placeholder="Номер телефона для быстрой связи"
                      class="request__input">
               <button class="request__btn">
                 Заказать видео ролик
@@ -1022,63 +1022,80 @@
     <div class="container footerContainer">
       <div class="footer">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 innerPaddingOff">
             <div class="footer__logo">
               <img src="img/header__logo.png" alt="Логотип ФОРТИТ"
                    class="img-responsive">
             </div>
             <!-- /.footer__logo -->
             <p class="footer__calling fcalling">
-              <span>8 804 3333 221</span>
-              <span>Звонок по России бесплатный</span>
+              <span class="fcalling__span fcalling__span__phone">8 804 3333
+                                                            221</span>
+              <span class="fcalling__span">Звонок по России бесплатный</span>
             </p>
             <!-- /.footer__calling fcalling -->
-            <p class="footer__cityPhones">
-              <span>Екатеринбург</span>
-              <span>+7 (343) 346-32-80</span>
-              <span>Москва</span>
-              <span>+7 (967) 639-32-80</span>
+            <p class="footer__cityPhones fcityPhones">
+              <span
+                class="fcityPhones__span fcityPhones__span ">Екатеринбург</span>
+              <span class="fcityPhones__span fcityPhones__span--number ">+7 (343) 346-32-80</span>
+              <span class="fcityPhones__span fcityPhones__span ">Москва
+              </span>
+              <span class="fcityPhones__span fcityPhones__span--number ">+7 (967) 639-32-80</span>
             </p>
             <!-- /.footer__cityPhones -->
           </div>
           <!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <p class="footer__info">
-              e-mail: vamfortit@yandex.ru
-            </p>
-            <!-- /.footer__info -->
-            <p class="footer__info">
-              График работы: 9-00 – 19-00. Выходные Сб., Вс.
-            </p>
-            <!-- /.footer__info -->
-            <p class="footer__info">
-              Адрес производства:
-            </p>
-            <!-- /.footer__info -->
-            <p class="footer__info">
-              г. Екатеринбург, ул. Ленина, 50Ж.
-            </p>
-            <!-- /.footer__info -->
-            <p class="footer__info">
-              (Свердловская киностудия)
-            </p>
-            <!-- /.footer__info -->
-            <p class="footer__icons"></p>
-            <!-- /.footer__icons -->
+          <div class="col-lg-4 innerPaddingOff">
+            <div class="footer__wrapInfo">
+              <p class="footer__info">
+                e-mail: vamfortit@yandex.ru
+              </p>
+              <!-- /.footer__info -->
+              <p class="footer__info">
+                График работы: 9-00 – 19-00. Выходные Сб., Вс.
+              </p>
+              <!-- /.footer__info -->
+              <p class="footer__info footer__info--adress">
+                Адрес производства:
+              </p>
+              <!-- /.footer__info -->
+              <p class="footer__info">
+                г. Екатеринбург, ул. Ленина, 50Ж.
+              </p>
+              <!-- /.footer__info -->
+              <p class="footer__info">
+                (Свердловская киностудия)
+              </p>
+              <!-- /.footer__info -->
+              <p class="footer__icons  ">
+                <a href="#" class="text-center fa footer-fa fa-facebook"></a>
+                <a href="#" class="text-center fa footer-fa fa-vk"></a>
+                <a href="#" class="text-center fa footer-fa fa-twitter"></a>
+                <a href="#"
+                   class="text-center fa footer-fa fa-odnoklassniki"></a>
+                <a href="#" class="text-center fa footer-fa fa-youtube"></a>
+                <a href="#" class="text-center fa footer-fa fa-facebook"></a>
+                <a href="#" class="text-center fa footer-fa fa-vk"></a>
+              </p>
+              <!-- /.footer__icons -->
+            </div>
+            <!-- /.footer__wrapInfo -->
           </div>
           <!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <form action="#" class="request">
-              <h2 class="request__title">
+          <div class="col-lg-4 innerPaddingOff">
+            <form action="#" class="footer__request frequest">
+              <h2 class="frequest__title">
                 Остались вопросы?
               </h2>
               <!-- /.request__title -->
-              <input type="text"><br>
-              <input type="text"><br>
-              <button class="request__btn">
-                Перезвони мне
+              <input class="frequest__input" type="text"
+                     placeholder="Представьтесь, пожалуйста">
+              <input class="frequest__input" type="tel"
+                     placeholder="Номер телефона для быстрой связи">
+              <button class="frequest__btn">
+                Перезвоните мне
               </button>
-              <!-- /.request__btn -->
+              <!-- /.frequest__btn -->
             </form>
             <!-- /.request -->
           </div>
@@ -1094,7 +1111,6 @@
     <!-- /.wrapMap -->
   </div>
   <!-- /.wrapFooter -->
-
 
 
   <!-- Button to scrollUP -->
