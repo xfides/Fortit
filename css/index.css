@@ -40,10 +40,29 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* line 64, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+.btnUp {
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  border: 3px solid #00a6eb;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  border-radius: 25%;
+  font-size: 20px;
+  color: #98c000;
+  cursor: pointer;
+  z-index: 11;
+  display: none; }
+
+/* line 83, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
 body {
   background-color: #ccc; }
 
-/* line 69, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* line 88, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
 div {
   outline: 2px dotted red; }
 
