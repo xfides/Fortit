@@ -39,13 +39,2565 @@
   font-style: normal; }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 63, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* line 64, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
 body {
   background-color: #ccc; }
 
-/* line 68, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
+/* line 69, D:/learn_HTML/projects/Kseniya/fortit/sass/common */
 div {
   outline: 2px dotted red; }
+
+/*!
+ *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/awesome/fontawesome-webfont.eot?v=4.4.0');
+  src: url('../fonts/awesome/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/awesome/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/awesome/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/awesome/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/awesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 14, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* makes the font 33% larger relative to the icon container */
+/* line 23, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+/* line 28, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-2x {
+  font-size: 2em; }
+
+/* line 31, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-3x {
+  font-size: 3em; }
+
+/* line 34, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-4x {
+  font-size: 4em; }
+
+/* line 37, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-5x {
+  font-size: 5em; }
+
+/* line 40, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center; }
+
+/* line 44, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none; }
+
+/* line 49, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ul > li {
+  position: relative; }
+
+/* line 52, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center; }
+
+/* line 59, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-li.fa-lg {
+  left: -1.85714286em; }
+
+/* line 62, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-border {
+  padding: 0.2em 0.25em 0.15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: 0.1em; }
+
+/* line 67, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pull-left {
+  float: left; }
+
+/* line 70, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pull-right {
+  float: right; }
+
+/* line 73, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa.fa-pull-left {
+  margin-right: 0.3em; }
+
+/* line 76, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa.fa-pull-right {
+  margin-left: 0.3em; }
+
+/* Deprecated as of 4.4.0 */
+/* line 80, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.pull-right {
+  float: right; }
+
+/* line 83, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.pull-left {
+  float: left; }
+
+/* line 86, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa.pull-left {
+  margin-right: 0.3em; }
+
+/* line 89, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa.pull-right {
+  margin-left: 0.3em; }
+
+/* line 92, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+/* line 96, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  /* line 101, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 105, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes fa-spin {
+  /* line 111, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 115, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+/* line 120, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 126, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 132, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 138, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 144, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* line 154, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+  filter: none; }
+
+/* line 157, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+/* line 166, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+/* line 172, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stack-1x {
+  line-height: inherit; }
+
+/* line 175, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stack-2x {
+  font-size: 2em; }
+
+/* line 178, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-inverse {
+  color: #ffffff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 183, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-glass:before {
+  content: "\f000"; }
+
+/* line 186, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-music:before {
+  content: "\f001"; }
+
+/* line 189, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-search:before {
+  content: "\f002"; }
+
+/* line 192, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-envelope-o:before {
+  content: "\f003"; }
+
+/* line 195, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-heart:before {
+  content: "\f004"; }
+
+/* line 198, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-star:before {
+  content: "\f005"; }
+
+/* line 201, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-star-o:before {
+  content: "\f006"; }
+
+/* line 204, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-user:before {
+  content: "\f007"; }
+
+/* line 207, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-film:before {
+  content: "\f008"; }
+
+/* line 210, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-th-large:before {
+  content: "\f009"; }
+
+/* line 213, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-th:before {
+  content: "\f00a"; }
+
+/* line 216, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-th-list:before {
+  content: "\f00b"; }
+
+/* line 219, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-check:before {
+  content: "\f00c"; }
+
+/* line 224, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-remove:before, .fa-close:before, .fa-times:before {
+  content: "\f00d"; }
+
+/* line 227, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-search-plus:before {
+  content: "\f00e"; }
+
+/* line 230, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-search-minus:before {
+  content: "\f010"; }
+
+/* line 233, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-power-off:before {
+  content: "\f011"; }
+
+/* line 236, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-signal:before {
+  content: "\f012"; }
+
+/* line 240, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013"; }
+
+/* line 243, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-trash-o:before {
+  content: "\f014"; }
+
+/* line 246, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-home:before {
+  content: "\f015"; }
+
+/* line 249, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-o:before {
+  content: "\f016"; }
+
+/* line 252, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-clock-o:before {
+  content: "\f017"; }
+
+/* line 255, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-road:before {
+  content: "\f018"; }
+
+/* line 258, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-download:before {
+  content: "\f019"; }
+
+/* line 261, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a"; }
+
+/* line 264, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b"; }
+
+/* line 267, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-inbox:before {
+  content: "\f01c"; }
+
+/* line 270, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-play-circle-o:before {
+  content: "\f01d"; }
+
+/* line 274, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e"; }
+
+/* line 277, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-refresh:before {
+  content: "\f021"; }
+
+/* line 280, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-list-alt:before {
+  content: "\f022"; }
+
+/* line 283, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-lock:before {
+  content: "\f023"; }
+
+/* line 286, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flag:before {
+  content: "\f024"; }
+
+/* line 289, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-headphones:before {
+  content: "\f025"; }
+
+/* line 292, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-volume-off:before {
+  content: "\f026"; }
+
+/* line 295, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-volume-down:before {
+  content: "\f027"; }
+
+/* line 298, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-volume-up:before {
+  content: "\f028"; }
+
+/* line 301, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-qrcode:before {
+  content: "\f029"; }
+
+/* line 304, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-barcode:before {
+  content: "\f02a"; }
+
+/* line 307, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tag:before {
+  content: "\f02b"; }
+
+/* line 310, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tags:before {
+  content: "\f02c"; }
+
+/* line 313, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-book:before {
+  content: "\f02d"; }
+
+/* line 316, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bookmark:before {
+  content: "\f02e"; }
+
+/* line 319, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-print:before {
+  content: "\f02f"; }
+
+/* line 322, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-camera:before {
+  content: "\f030"; }
+
+/* line 325, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-font:before {
+  content: "\f031"; }
+
+/* line 328, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bold:before {
+  content: "\f032"; }
+
+/* line 331, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-italic:before {
+  content: "\f033"; }
+
+/* line 334, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-text-height:before {
+  content: "\f034"; }
+
+/* line 337, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-text-width:before {
+  content: "\f035"; }
+
+/* line 340, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-align-left:before {
+  content: "\f036"; }
+
+/* line 343, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-align-center:before {
+  content: "\f037"; }
+
+/* line 346, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-align-right:before {
+  content: "\f038"; }
+
+/* line 349, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-align-justify:before {
+  content: "\f039"; }
+
+/* line 352, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-list:before {
+  content: "\f03a"; }
+
+/* line 356, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b"; }
+
+/* line 359, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-indent:before {
+  content: "\f03c"; }
+
+/* line 362, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-video-camera:before {
+  content: "\f03d"; }
+
+/* line 367, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f03e"; }
+
+/* line 370, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pencil:before {
+  content: "\f040"; }
+
+/* line 373, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-map-marker:before {
+  content: "\f041"; }
+
+/* line 376, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-adjust:before {
+  content: "\f042"; }
+
+/* line 379, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tint:before {
+  content: "\f043"; }
+
+/* line 383, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044"; }
+
+/* line 386, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-share-square-o:before {
+  content: "\f045"; }
+
+/* line 389, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-check-square-o:before {
+  content: "\f046"; }
+
+/* line 392, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrows:before {
+  content: "\f047"; }
+
+/* line 395, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-step-backward:before {
+  content: "\f048"; }
+
+/* line 398, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fast-backward:before {
+  content: "\f049"; }
+
+/* line 401, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-backward:before {
+  content: "\f04a"; }
+
+/* line 404, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-play:before {
+  content: "\f04b"; }
+
+/* line 407, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pause:before {
+  content: "\f04c"; }
+
+/* line 410, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stop:before {
+  content: "\f04d"; }
+
+/* line 413, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-forward:before {
+  content: "\f04e"; }
+
+/* line 416, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fast-forward:before {
+  content: "\f050"; }
+
+/* line 419, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-step-forward:before {
+  content: "\f051"; }
+
+/* line 422, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-eject:before {
+  content: "\f052"; }
+
+/* line 425, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-left:before {
+  content: "\f053"; }
+
+/* line 428, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-right:before {
+  content: "\f054"; }
+
+/* line 431, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-plus-circle:before {
+  content: "\f055"; }
+
+/* line 434, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-minus-circle:before {
+  content: "\f056"; }
+
+/* line 437, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-times-circle:before {
+  content: "\f057"; }
+
+/* line 440, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-check-circle:before {
+  content: "\f058"; }
+
+/* line 443, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-question-circle:before {
+  content: "\f059"; }
+
+/* line 446, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-info-circle:before {
+  content: "\f05a"; }
+
+/* line 449, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-crosshairs:before {
+  content: "\f05b"; }
+
+/* line 452, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-times-circle-o:before {
+  content: "\f05c"; }
+
+/* line 455, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-check-circle-o:before {
+  content: "\f05d"; }
+
+/* line 458, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ban:before {
+  content: "\f05e"; }
+
+/* line 461, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-left:before {
+  content: "\f060"; }
+
+/* line 464, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-right:before {
+  content: "\f061"; }
+
+/* line 467, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-up:before {
+  content: "\f062"; }
+
+/* line 470, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-down:before {
+  content: "\f063"; }
+
+/* line 474, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064"; }
+
+/* line 477, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-expand:before {
+  content: "\f065"; }
+
+/* line 480, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-compress:before {
+  content: "\f066"; }
+
+/* line 483, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-plus:before {
+  content: "\f067"; }
+
+/* line 486, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-minus:before {
+  content: "\f068"; }
+
+/* line 489, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-asterisk:before {
+  content: "\f069"; }
+
+/* line 492, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-exclamation-circle:before {
+  content: "\f06a"; }
+
+/* line 495, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gift:before {
+  content: "\f06b"; }
+
+/* line 498, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-leaf:before {
+  content: "\f06c"; }
+
+/* line 501, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fire:before {
+  content: "\f06d"; }
+
+/* line 504, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-eye:before {
+  content: "\f06e"; }
+
+/* line 507, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-eye-slash:before {
+  content: "\f070"; }
+
+/* line 511, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071"; }
+
+/* line 514, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-plane:before {
+  content: "\f072"; }
+
+/* line 517, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calendar:before {
+  content: "\f073"; }
+
+/* line 520, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-random:before {
+  content: "\f074"; }
+
+/* line 523, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-comment:before {
+  content: "\f075"; }
+
+/* line 526, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-magnet:before {
+  content: "\f076"; }
+
+/* line 529, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-up:before {
+  content: "\f077"; }
+
+/* line 532, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-down:before {
+  content: "\f078"; }
+
+/* line 535, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-retweet:before {
+  content: "\f079"; }
+
+/* line 538, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-shopping-cart:before {
+  content: "\f07a"; }
+
+/* line 541, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-folder:before {
+  content: "\f07b"; }
+
+/* line 544, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-folder-open:before {
+  content: "\f07c"; }
+
+/* line 547, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrows-v:before {
+  content: "\f07d"; }
+
+/* line 550, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrows-h:before {
+  content: "\f07e"; }
+
+/* line 554, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bar-chart-o:before, .fa-bar-chart:before {
+  content: "\f080"; }
+
+/* line 557, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-twitter-square:before {
+  content: "\f081"; }
+
+/* line 560, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+/* line 563, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-camera-retro:before {
+  content: "\f083"; }
+
+/* line 566, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-key:before {
+  content: "\f084"; }
+
+/* line 570, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085"; }
+
+/* line 573, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-comments:before {
+  content: "\f086"; }
+
+/* line 576, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-thumbs-o-up:before {
+  content: "\f087"; }
+
+/* line 579, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-thumbs-o-down:before {
+  content: "\f088"; }
+
+/* line 582, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-star-half:before {
+  content: "\f089"; }
+
+/* line 585, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-heart-o:before {
+  content: "\f08a"; }
+
+/* line 588, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sign-out:before {
+  content: "\f08b"; }
+
+/* line 591, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-linkedin-square:before {
+  content: "\f08c"; }
+
+/* line 594, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-thumb-tack:before {
+  content: "\f08d"; }
+
+/* line 597, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-external-link:before {
+  content: "\f08e"; }
+
+/* line 600, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sign-in:before {
+  content: "\f090"; }
+
+/* line 603, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-trophy:before {
+  content: "\f091"; }
+
+/* line 606, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-github-square:before {
+  content: "\f092"; }
+
+/* line 609, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-upload:before {
+  content: "\f093"; }
+
+/* line 612, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-lemon-o:before {
+  content: "\f094"; }
+
+/* line 615, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-phone:before {
+  content: "\f095"; }
+
+/* line 618, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-square-o:before {
+  content: "\f096"; }
+
+/* line 621, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bookmark-o:before {
+  content: "\f097"; }
+
+/* line 624, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-phone-square:before {
+  content: "\f098"; }
+
+/* line 627, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-twitter:before {
+  content: "\f099"; }
+
+/* line 631, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-facebook-f:before, .fa-facebook:before {
+  content: "\f09a"; }
+
+/* line 634, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-github:before {
+  content: "\f09b"; }
+
+/* line 637, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-unlock:before {
+  content: "\f09c"; }
+
+/* line 640, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-credit-card:before {
+  content: "\f09d"; }
+
+/* line 644, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-feed:before, .fa-rss:before {
+  content: "\f09e"; }
+
+/* line 647, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hdd-o:before {
+  content: "\f0a0"; }
+
+/* line 650, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bullhorn:before {
+  content: "\f0a1"; }
+
+/* line 653, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bell:before {
+  content: "\f0f3"; }
+
+/* line 656, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-certificate:before {
+  content: "\f0a3"; }
+
+/* line 659, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-o-right:before {
+  content: "\f0a4"; }
+
+/* line 662, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-o-left:before {
+  content: "\f0a5"; }
+
+/* line 665, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-o-up:before {
+  content: "\f0a6"; }
+
+/* line 668, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-o-down:before {
+  content: "\f0a7"; }
+
+/* line 671, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-left:before {
+  content: "\f0a8"; }
+
+/* line 674, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-right:before {
+  content: "\f0a9"; }
+
+/* line 677, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-up:before {
+  content: "\f0aa"; }
+
+/* line 680, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-down:before {
+  content: "\f0ab"; }
+
+/* line 683, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-globe:before {
+  content: "\f0ac"; }
+
+/* line 686, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-wrench:before {
+  content: "\f0ad"; }
+
+/* line 689, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tasks:before {
+  content: "\f0ae"; }
+
+/* line 692, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-filter:before {
+  content: "\f0b0"; }
+
+/* line 695, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-briefcase:before {
+  content: "\f0b1"; }
+
+/* line 698, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrows-alt:before {
+  content: "\f0b2"; }
+
+/* line 702, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0"; }
+
+/* line 706, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1"; }
+
+/* line 709, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cloud:before {
+  content: "\f0c2"; }
+
+/* line 712, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flask:before {
+  content: "\f0c3"; }
+
+/* line 716, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4"; }
+
+/* line 720, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5"; }
+
+/* line 723, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-paperclip:before {
+  content: "\f0c6"; }
+
+/* line 727, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7"; }
+
+/* line 730, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-square:before {
+  content: "\f0c8"; }
+
+/* line 735, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9"; }
+
+/* line 738, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-list-ul:before {
+  content: "\f0ca"; }
+
+/* line 741, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-list-ol:before {
+  content: "\f0cb"; }
+
+/* line 744, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-strikethrough:before {
+  content: "\f0cc"; }
+
+/* line 747, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-underline:before {
+  content: "\f0cd"; }
+
+/* line 750, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-table:before {
+  content: "\f0ce"; }
+
+/* line 753, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-magic:before {
+  content: "\f0d0"; }
+
+/* line 756, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-truck:before {
+  content: "\f0d1"; }
+
+/* line 759, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pinterest:before {
+  content: "\f0d2"; }
+
+/* line 762, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
+/* line 765, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-google-plus-square:before {
+  content: "\f0d4"; }
+
+/* line 768, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-google-plus:before {
+  content: "\f0d5"; }
+
+/* line 771, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-money:before {
+  content: "\f0d6"; }
+
+/* line 774, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-caret-down:before {
+  content: "\f0d7"; }
+
+/* line 777, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-caret-up:before {
+  content: "\f0d8"; }
+
+/* line 780, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-caret-left:before {
+  content: "\f0d9"; }
+
+/* line 783, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-caret-right:before {
+  content: "\f0da"; }
+
+/* line 786, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-columns:before {
+  content: "\f0db"; }
+
+/* line 790, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc"; }
+
+/* line 794, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-down:before, .fa-sort-desc:before {
+  content: "\f0dd"; }
+
+/* line 798, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-up:before, .fa-sort-asc:before {
+  content: "\f0de"; }
+
+/* line 801, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-envelope:before {
+  content: "\f0e0"; }
+
+/* line 804, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-linkedin:before {
+  content: "\f0e1"; }
+
+/* line 808, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2"; }
+
+/* line 812, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3"; }
+
+/* line 816, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4"; }
+
+/* line 819, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-comment-o:before {
+  content: "\f0e5"; }
+
+/* line 822, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-comments-o:before {
+  content: "\f0e6"; }
+
+/* line 826, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7"; }
+
+/* line 829, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sitemap:before {
+  content: "\f0e8"; }
+
+/* line 832, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-umbrella:before {
+  content: "\f0e9"; }
+
+/* line 836, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea"; }
+
+/* line 839, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-lightbulb-o:before {
+  content: "\f0eb"; }
+
+/* line 842, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-exchange:before {
+  content: "\f0ec"; }
+
+/* line 845, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cloud-download:before {
+  content: "\f0ed"; }
+
+/* line 848, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cloud-upload:before {
+  content: "\f0ee"; }
+
+/* line 851, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-user-md:before {
+  content: "\f0f0"; }
+
+/* line 854, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stethoscope:before {
+  content: "\f0f1"; }
+
+/* line 857, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-suitcase:before {
+  content: "\f0f2"; }
+
+/* line 860, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bell-o:before {
+  content: "\f0a2"; }
+
+/* line 863, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-coffee:before {
+  content: "\f0f4"; }
+
+/* line 866, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cutlery:before {
+  content: "\f0f5"; }
+
+/* line 869, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-text-o:before {
+  content: "\f0f6"; }
+
+/* line 872, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-building-o:before {
+  content: "\f0f7"; }
+
+/* line 875, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hospital-o:before {
+  content: "\f0f8"; }
+
+/* line 878, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ambulance:before {
+  content: "\f0f9"; }
+
+/* line 881, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-medkit:before {
+  content: "\f0fa"; }
+
+/* line 884, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fighter-jet:before {
+  content: "\f0fb"; }
+
+/* line 887, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-beer:before {
+  content: "\f0fc"; }
+
+/* line 890, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-h-square:before {
+  content: "\f0fd"; }
+
+/* line 893, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-plus-square:before {
+  content: "\f0fe"; }
+
+/* line 896, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-double-left:before {
+  content: "\f100"; }
+
+/* line 899, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-double-right:before {
+  content: "\f101"; }
+
+/* line 902, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-double-up:before {
+  content: "\f102"; }
+
+/* line 905, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-double-down:before {
+  content: "\f103"; }
+
+/* line 908, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-left:before {
+  content: "\f104"; }
+
+/* line 911, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-right:before {
+  content: "\f105"; }
+
+/* line 914, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-up:before {
+  content: "\f106"; }
+
+/* line 917, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angle-down:before {
+  content: "\f107"; }
+
+/* line 920, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-desktop:before {
+  content: "\f108"; }
+
+/* line 923, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-laptop:before {
+  content: "\f109"; }
+
+/* line 926, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tablet:before {
+  content: "\f10a"; }
+
+/* line 930, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b"; }
+
+/* line 933, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-circle-o:before {
+  content: "\f10c"; }
+
+/* line 936, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-quote-left:before {
+  content: "\f10d"; }
+
+/* line 939, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-quote-right:before {
+  content: "\f10e"; }
+
+/* line 942, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-spinner:before {
+  content: "\f110"; }
+
+/* line 945, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-circle:before {
+  content: "\f111"; }
+
+/* line 949, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112"; }
+
+/* line 952, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-github-alt:before {
+  content: "\f113"; }
+
+/* line 955, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-folder-o:before {
+  content: "\f114"; }
+
+/* line 958, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-folder-open-o:before {
+  content: "\f115"; }
+
+/* line 961, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-smile-o:before {
+  content: "\f118"; }
+
+/* line 964, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-frown-o:before {
+  content: "\f119"; }
+
+/* line 967, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-meh-o:before {
+  content: "\f11a"; }
+
+/* line 970, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gamepad:before {
+  content: "\f11b"; }
+
+/* line 973, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-keyboard-o:before {
+  content: "\f11c"; }
+
+/* line 976, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flag-o:before {
+  content: "\f11d"; }
+
+/* line 979, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flag-checkered:before {
+  content: "\f11e"; }
+
+/* line 982, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-terminal:before {
+  content: "\f120"; }
+
+/* line 985, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-code:before {
+  content: "\f121"; }
+
+/* line 989, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mail-reply-all:before, .fa-reply-all:before {
+  content: "\f122"; }
+
+/* line 994, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123"; }
+
+/* line 997, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-location-arrow:before {
+  content: "\f124"; }
+
+/* line 1000, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-crop:before {
+  content: "\f125"; }
+
+/* line 1003, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-code-fork:before {
+  content: "\f126"; }
+
+/* line 1007, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127"; }
+
+/* line 1010, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-question:before {
+  content: "\f128"; }
+
+/* line 1013, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-info:before {
+  content: "\f129"; }
+
+/* line 1016, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-exclamation:before {
+  content: "\f12a"; }
+
+/* line 1019, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-superscript:before {
+  content: "\f12b"; }
+
+/* line 1022, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-subscript:before {
+  content: "\f12c"; }
+
+/* line 1025, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-eraser:before {
+  content: "\f12d"; }
+
+/* line 1028, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-puzzle-piece:before {
+  content: "\f12e"; }
+
+/* line 1031, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-microphone:before {
+  content: "\f130"; }
+
+/* line 1034, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-microphone-slash:before {
+  content: "\f131"; }
+
+/* line 1037, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-shield:before {
+  content: "\f132"; }
+
+/* line 1040, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calendar-o:before {
+  content: "\f133"; }
+
+/* line 1043, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fire-extinguisher:before {
+  content: "\f134"; }
+
+/* line 1046, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rocket:before {
+  content: "\f135"; }
+
+/* line 1049, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-maxcdn:before {
+  content: "\f136"; }
+
+/* line 1052, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-circle-left:before {
+  content: "\f137"; }
+
+/* line 1055, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-circle-right:before {
+  content: "\f138"; }
+
+/* line 1058, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-circle-up:before {
+  content: "\f139"; }
+
+/* line 1061, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chevron-circle-down:before {
+  content: "\f13a"; }
+
+/* line 1064, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-html5:before {
+  content: "\f13b"; }
+
+/* line 1067, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-css3:before {
+  content: "\f13c"; }
+
+/* line 1070, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-anchor:before {
+  content: "\f13d"; }
+
+/* line 1073, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-unlock-alt:before {
+  content: "\f13e"; }
+
+/* line 1076, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bullseye:before {
+  content: "\f140"; }
+
+/* line 1079, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ellipsis-h:before {
+  content: "\f141"; }
+
+/* line 1082, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ellipsis-v:before {
+  content: "\f142"; }
+
+/* line 1085, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rss-square:before {
+  content: "\f143"; }
+
+/* line 1088, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-play-circle:before {
+  content: "\f144"; }
+
+/* line 1091, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ticket:before {
+  content: "\f145"; }
+
+/* line 1094, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-minus-square:before {
+  content: "\f146"; }
+
+/* line 1097, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-minus-square-o:before {
+  content: "\f147"; }
+
+/* line 1100, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-level-up:before {
+  content: "\f148"; }
+
+/* line 1103, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-level-down:before {
+  content: "\f149"; }
+
+/* line 1106, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-check-square:before {
+  content: "\f14a"; }
+
+/* line 1109, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pencil-square:before {
+  content: "\f14b"; }
+
+/* line 1112, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-external-link-square:before {
+  content: "\f14c"; }
+
+/* line 1115, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-share-square:before {
+  content: "\f14d"; }
+
+/* line 1118, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-compass:before {
+  content: "\f14e"; }
+
+/* line 1122, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150"; }
+
+/* line 1126, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151"; }
+
+/* line 1130, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152"; }
+
+/* line 1134, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153"; }
+
+/* line 1137, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gbp:before {
+  content: "\f154"; }
+
+/* line 1141, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155"; }
+
+/* line 1145, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156"; }
+
+/* line 1151, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157"; }
+
+/* line 1156, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158"; }
+
+/* line 1160, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-won:before, .fa-krw:before {
+  content: "\f159"; }
+
+/* line 1164, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a"; }
+
+/* line 1167, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file:before {
+  content: "\f15b"; }
+
+/* line 1170, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-text:before {
+  content: "\f15c"; }
+
+/* line 1173, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-alpha-asc:before {
+  content: "\f15d"; }
+
+/* line 1176, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-alpha-desc:before {
+  content: "\f15e"; }
+
+/* line 1179, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-amount-asc:before {
+  content: "\f160"; }
+
+/* line 1182, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-amount-desc:before {
+  content: "\f161"; }
+
+/* line 1185, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-numeric-asc:before {
+  content: "\f162"; }
+
+/* line 1188, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sort-numeric-desc:before {
+  content: "\f163"; }
+
+/* line 1191, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-thumbs-up:before {
+  content: "\f164"; }
+
+/* line 1194, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-thumbs-down:before {
+  content: "\f165"; }
+
+/* line 1197, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-youtube-square:before {
+  content: "\f166"; }
+
+/* line 1200, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-youtube:before {
+  content: "\f167"; }
+
+/* line 1203, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-xing:before {
+  content: "\f168"; }
+
+/* line 1206, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-xing-square:before {
+  content: "\f169"; }
+
+/* line 1209, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-youtube-play:before {
+  content: "\f16a"; }
+
+/* line 1212, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dropbox:before {
+  content: "\f16b"; }
+
+/* line 1215, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stack-overflow:before {
+  content: "\f16c"; }
+
+/* line 1218, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-instagram:before {
+  content: "\f16d"; }
+
+/* line 1221, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-flickr:before {
+  content: "\f16e"; }
+
+/* line 1224, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-adn:before {
+  content: "\f170"; }
+
+/* line 1227, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bitbucket:before {
+  content: "\f171"; }
+
+/* line 1230, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bitbucket-square:before {
+  content: "\f172"; }
+
+/* line 1233, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tumblr:before {
+  content: "\f173"; }
+
+/* line 1236, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tumblr-square:before {
+  content: "\f174"; }
+
+/* line 1239, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-long-arrow-down:before {
+  content: "\f175"; }
+
+/* line 1242, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-long-arrow-up:before {
+  content: "\f176"; }
+
+/* line 1245, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-long-arrow-left:before {
+  content: "\f177"; }
+
+/* line 1248, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-long-arrow-right:before {
+  content: "\f178"; }
+
+/* line 1251, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-apple:before {
+  content: "\f179"; }
+
+/* line 1254, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-windows:before {
+  content: "\f17a"; }
+
+/* line 1257, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-android:before {
+  content: "\f17b"; }
+
+/* line 1260, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-linux:before {
+  content: "\f17c"; }
+
+/* line 1263, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dribbble:before {
+  content: "\f17d"; }
+
+/* line 1266, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-skype:before {
+  content: "\f17e"; }
+
+/* line 1269, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-foursquare:before {
+  content: "\f180"; }
+
+/* line 1272, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-trello:before {
+  content: "\f181"; }
+
+/* line 1275, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-female:before {
+  content: "\f182"; }
+
+/* line 1278, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-male:before {
+  content: "\f183"; }
+
+/* line 1282, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gittip:before, .fa-gratipay:before {
+  content: "\f184"; }
+
+/* line 1285, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sun-o:before {
+  content: "\f185"; }
+
+/* line 1288, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-moon-o:before {
+  content: "\f186"; }
+
+/* line 1291, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-archive:before {
+  content: "\f187"; }
+
+/* line 1294, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bug:before {
+  content: "\f188"; }
+
+/* line 1297, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-vk:before {
+  content: "\f189"; }
+
+/* line 1300, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-weibo:before {
+  content: "\f18a"; }
+
+/* line 1303, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-renren:before {
+  content: "\f18b"; }
+
+/* line 1306, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pagelines:before {
+  content: "\f18c"; }
+
+/* line 1309, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stack-exchange:before {
+  content: "\f18d"; }
+
+/* line 1312, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e"; }
+
+/* line 1315, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-arrow-circle-o-left:before {
+  content: "\f190"; }
+
+/* line 1319, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191"; }
+
+/* line 1322, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dot-circle-o:before {
+  content: "\f192"; }
+
+/* line 1325, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-wheelchair:before {
+  content: "\f193"; }
+
+/* line 1328, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-vimeo-square:before {
+  content: "\f194"; }
+
+/* line 1332, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195"; }
+
+/* line 1335, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-plus-square-o:before {
+  content: "\f196"; }
+
+/* line 1338, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-space-shuttle:before {
+  content: "\f197"; }
+
+/* line 1341, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-slack:before {
+  content: "\f198"; }
+
+/* line 1344, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-envelope-square:before {
+  content: "\f199"; }
+
+/* line 1347, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-wordpress:before {
+  content: "\f19a"; }
+
+/* line 1350, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-openid:before {
+  content: "\f19b"; }
+
+/* line 1355, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+  content: "\f19c"; }
+
+/* line 1359, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d"; }
+
+/* line 1362, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-yahoo:before {
+  content: "\f19e"; }
+
+/* line 1365, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-google:before {
+  content: "\f1a0"; }
+
+/* line 1368, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-reddit:before {
+  content: "\f1a1"; }
+
+/* line 1371, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-reddit-square:before {
+  content: "\f1a2"; }
+
+/* line 1374, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3"; }
+
+/* line 1377, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-stumbleupon:before {
+  content: "\f1a4"; }
+
+/* line 1380, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-delicious:before {
+  content: "\f1a5"; }
+
+/* line 1383, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-digg:before {
+  content: "\f1a6"; }
+
+/* line 1386, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pied-piper:before {
+  content: "\f1a7"; }
+
+/* line 1389, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pied-piper-alt:before {
+  content: "\f1a8"; }
+
+/* line 1392, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-drupal:before {
+  content: "\f1a9"; }
+
+/* line 1395, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-joomla:before {
+  content: "\f1aa"; }
+
+/* line 1398, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-language:before {
+  content: "\f1ab"; }
+
+/* line 1401, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fax:before {
+  content: "\f1ac"; }
+
+/* line 1404, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-building:before {
+  content: "\f1ad"; }
+
+/* line 1407, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-child:before {
+  content: "\f1ae"; }
+
+/* line 1410, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-paw:before {
+  content: "\f1b0"; }
+
+/* line 1413, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-spoon:before {
+  content: "\f1b1"; }
+
+/* line 1416, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cube:before {
+  content: "\f1b2"; }
+
+/* line 1419, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cubes:before {
+  content: "\f1b3"; }
+
+/* line 1422, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-behance:before {
+  content: "\f1b4"; }
+
+/* line 1425, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-behance-square:before {
+  content: "\f1b5"; }
+
+/* line 1428, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-steam:before {
+  content: "\f1b6"; }
+
+/* line 1431, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-steam-square:before {
+  content: "\f1b7"; }
+
+/* line 1434, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-recycle:before {
+  content: "\f1b8"; }
+
+/* line 1438, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-automobile:before, .fa-car:before {
+  content: "\f1b9"; }
+
+/* line 1442, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cab:before, .fa-taxi:before {
+  content: "\f1ba"; }
+
+/* line 1445, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tree:before {
+  content: "\f1bb"; }
+
+/* line 1448, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-spotify:before {
+  content: "\f1bc"; }
+
+/* line 1451, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-deviantart:before {
+  content: "\f1bd"; }
+
+/* line 1454, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-soundcloud:before {
+  content: "\f1be"; }
+
+/* line 1457, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-database:before {
+  content: "\f1c0"; }
+
+/* line 1460, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-pdf-o:before {
+  content: "\f1c1"; }
+
+/* line 1463, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-word-o:before {
+  content: "\f1c2"; }
+
+/* line 1466, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-excel-o:before {
+  content: "\f1c3"; }
+
+/* line 1469, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4"; }
+
+/* line 1474, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+  content: "\f1c5"; }
+
+/* line 1478, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+  content: "\f1c6"; }
+
+/* line 1482, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+  content: "\f1c7"; }
+
+/* line 1486, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-movie-o:before, .fa-file-video-o:before {
+  content: "\f1c8"; }
+
+/* line 1489, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-file-code-o:before {
+  content: "\f1c9"; }
+
+/* line 1492, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-vine:before {
+  content: "\f1ca"; }
+
+/* line 1495, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-codepen:before {
+  content: "\f1cb"; }
+
+/* line 1498, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-jsfiddle:before {
+  content: "\f1cc"; }
+
+/* line 1505, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+  content: "\f1cd"; }
+
+/* line 1508, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-circle-o-notch:before {
+  content: "\f1ce"; }
+
+/* line 1512, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ra:before, .fa-rebel:before {
+  content: "\f1d0"; }
+
+/* line 1516, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ge:before, .fa-empire:before {
+  content: "\f1d1"; }
+
+/* line 1519, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-git-square:before {
+  content: "\f1d2"; }
+
+/* line 1522, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-git:before {
+  content: "\f1d3"; }
+
+/* line 1527, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-y-combinator-square:before, .fa-yc-square:before, .fa-hacker-news:before {
+  content: "\f1d4"; }
+
+/* line 1530, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tencent-weibo:before {
+  content: "\f1d5"; }
+
+/* line 1533, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-qq:before {
+  content: "\f1d6"; }
+
+/* line 1537, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-wechat:before, .fa-weixin:before {
+  content: "\f1d7"; }
+
+/* line 1541, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-send:before, .fa-paper-plane:before {
+  content: "\f1d8"; }
+
+/* line 1545, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-send-o:before, .fa-paper-plane-o:before {
+  content: "\f1d9"; }
+
+/* line 1548, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-history:before {
+  content: "\f1da"; }
+
+/* line 1551, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-circle-thin:before {
+  content: "\f1db"; }
+
+/* line 1554, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-header:before {
+  content: "\f1dc"; }
+
+/* line 1557, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-paragraph:before {
+  content: "\f1dd"; }
+
+/* line 1560, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sliders:before {
+  content: "\f1de"; }
+
+/* line 1563, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-share-alt:before {
+  content: "\f1e0"; }
+
+/* line 1566, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-share-alt-square:before {
+  content: "\f1e1"; }
+
+/* line 1569, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bomb:before {
+  content: "\f1e2"; }
+
+/* line 1573, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-soccer-ball-o:before, .fa-futbol-o:before {
+  content: "\f1e3"; }
+
+/* line 1576, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tty:before {
+  content: "\f1e4"; }
+
+/* line 1579, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-binoculars:before {
+  content: "\f1e5"; }
+
+/* line 1582, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-plug:before {
+  content: "\f1e6"; }
+
+/* line 1585, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-slideshare:before {
+  content: "\f1e7"; }
+
+/* line 1588, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-twitch:before {
+  content: "\f1e8"; }
+
+/* line 1591, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-yelp:before {
+  content: "\f1e9"; }
+
+/* line 1594, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-newspaper-o:before {
+  content: "\f1ea"; }
+
+/* line 1597, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-wifi:before {
+  content: "\f1eb"; }
+
+/* line 1600, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calculator:before {
+  content: "\f1ec"; }
+
+/* line 1603, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-paypal:before {
+  content: "\f1ed"; }
+
+/* line 1606, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-google-wallet:before {
+  content: "\f1ee"; }
+
+/* line 1609, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-visa:before {
+  content: "\f1f0"; }
+
+/* line 1612, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-mastercard:before {
+  content: "\f1f1"; }
+
+/* line 1615, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-discover:before {
+  content: "\f1f2"; }
+
+/* line 1618, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-amex:before {
+  content: "\f1f3"; }
+
+/* line 1621, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-paypal:before {
+  content: "\f1f4"; }
+
+/* line 1624, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-stripe:before {
+  content: "\f1f5"; }
+
+/* line 1627, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bell-slash:before {
+  content: "\f1f6"; }
+
+/* line 1630, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bell-slash-o:before {
+  content: "\f1f7"; }
+
+/* line 1633, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-trash:before {
+  content: "\f1f8"; }
+
+/* line 1636, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-copyright:before {
+  content: "\f1f9"; }
+
+/* line 1639, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-at:before {
+  content: "\f1fa"; }
+
+/* line 1642, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-eyedropper:before {
+  content: "\f1fb"; }
+
+/* line 1645, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-paint-brush:before {
+  content: "\f1fc"; }
+
+/* line 1648, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-birthday-cake:before {
+  content: "\f1fd"; }
+
+/* line 1651, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-area-chart:before {
+  content: "\f1fe"; }
+
+/* line 1654, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pie-chart:before {
+  content: "\f200"; }
+
+/* line 1657, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-line-chart:before {
+  content: "\f201"; }
+
+/* line 1660, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-lastfm:before {
+  content: "\f202"; }
+
+/* line 1663, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-lastfm-square:before {
+  content: "\f203"; }
+
+/* line 1666, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-toggle-off:before {
+  content: "\f204"; }
+
+/* line 1669, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-toggle-on:before {
+  content: "\f205"; }
+
+/* line 1672, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bicycle:before {
+  content: "\f206"; }
+
+/* line 1675, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-bus:before {
+  content: "\f207"; }
+
+/* line 1678, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ioxhost:before {
+  content: "\f208"; }
+
+/* line 1681, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-angellist:before {
+  content: "\f209"; }
+
+/* line 1684, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc:before {
+  content: "\f20a"; }
+
+/* line 1689, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
+  content: "\f20b"; }
+
+/* line 1692, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-meanpath:before {
+  content: "\f20c"; }
+
+/* line 1695, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-buysellads:before {
+  content: "\f20d"; }
+
+/* line 1698, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-connectdevelop:before {
+  content: "\f20e"; }
+
+/* line 1701, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-dashcube:before {
+  content: "\f210"; }
+
+/* line 1704, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-forumbee:before {
+  content: "\f211"; }
+
+/* line 1707, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-leanpub:before {
+  content: "\f212"; }
+
+/* line 1710, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sellsy:before {
+  content: "\f213"; }
+
+/* line 1713, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-shirtsinbulk:before {
+  content: "\f214"; }
+
+/* line 1716, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-simplybuilt:before {
+  content: "\f215"; }
+
+/* line 1719, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-skyatlas:before {
+  content: "\f216"; }
+
+/* line 1722, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cart-plus:before {
+  content: "\f217"; }
+
+/* line 1725, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cart-arrow-down:before {
+  content: "\f218"; }
+
+/* line 1728, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-diamond:before {
+  content: "\f219"; }
+
+/* line 1731, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-ship:before {
+  content: "\f21a"; }
+
+/* line 1734, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-user-secret:before {
+  content: "\f21b"; }
+
+/* line 1737, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-motorcycle:before {
+  content: "\f21c"; }
+
+/* line 1740, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-street-view:before {
+  content: "\f21d"; }
+
+/* line 1743, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-heartbeat:before {
+  content: "\f21e"; }
+
+/* line 1746, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-venus:before {
+  content: "\f221"; }
+
+/* line 1749, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mars:before {
+  content: "\f222"; }
+
+/* line 1752, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mercury:before {
+  content: "\f223"; }
+
+/* line 1756, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-intersex:before, .fa-transgender:before {
+  content: "\f224"; }
+
+/* line 1759, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-transgender-alt:before {
+  content: "\f225"; }
+
+/* line 1762, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-venus-double:before {
+  content: "\f226"; }
+
+/* line 1765, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mars-double:before {
+  content: "\f227"; }
+
+/* line 1768, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-venus-mars:before {
+  content: "\f228"; }
+
+/* line 1771, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mars-stroke:before {
+  content: "\f229"; }
+
+/* line 1774, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mars-stroke-v:before {
+  content: "\f22a"; }
+
+/* line 1777, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mars-stroke-h:before {
+  content: "\f22b"; }
+
+/* line 1780, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-neuter:before {
+  content: "\f22c"; }
+
+/* line 1783, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-genderless:before {
+  content: "\f22d"; }
+
+/* line 1786, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-facebook-official:before {
+  content: "\f230"; }
+
+/* line 1789, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-pinterest-p:before {
+  content: "\f231"; }
+
+/* line 1792, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-whatsapp:before {
+  content: "\f232"; }
+
+/* line 1795, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-server:before {
+  content: "\f233"; }
+
+/* line 1798, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-user-plus:before {
+  content: "\f234"; }
+
+/* line 1801, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-user-times:before {
+  content: "\f235"; }
+
+/* line 1805, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hotel:before, .fa-bed:before {
+  content: "\f236"; }
+
+/* line 1808, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-viacoin:before {
+  content: "\f237"; }
+
+/* line 1811, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-train:before {
+  content: "\f238"; }
+
+/* line 1814, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-subway:before {
+  content: "\f239"; }
+
+/* line 1817, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-medium:before {
+  content: "\f23a"; }
+
+/* line 1821, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-yc:before, .fa-y-combinator:before {
+  content: "\f23b"; }
+
+/* line 1824, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-optin-monster:before {
+  content: "\f23c"; }
+
+/* line 1827, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-opencart:before {
+  content: "\f23d"; }
+
+/* line 1830, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-expeditedssl:before {
+  content: "\f23e"; }
+
+/* line 1834, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-battery-4:before, .fa-battery-full:before {
+  content: "\f240"; }
+
+/* line 1838, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-battery-3:before, .fa-battery-three-quarters:before {
+  content: "\f241"; }
+
+/* line 1842, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-battery-2:before, .fa-battery-half:before {
+  content: "\f242"; }
+
+/* line 1846, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-battery-1:before, .fa-battery-quarter:before {
+  content: "\f243"; }
+
+/* line 1850, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-battery-0:before, .fa-battery-empty:before {
+  content: "\f244"; }
+
+/* line 1853, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-mouse-pointer:before {
+  content: "\f245"; }
+
+/* line 1856, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-i-cursor:before {
+  content: "\f246"; }
+
+/* line 1859, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-object-group:before {
+  content: "\f247"; }
+
+/* line 1862, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-object-ungroup:before {
+  content: "\f248"; }
+
+/* line 1865, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sticky-note:before {
+  content: "\f249"; }
+
+/* line 1868, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-sticky-note-o:before {
+  content: "\f24a"; }
+
+/* line 1871, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-jcb:before {
+  content: "\f24b"; }
+
+/* line 1874, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-cc-diners-club:before {
+  content: "\f24c"; }
+
+/* line 1877, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-clone:before {
+  content: "\f24d"; }
+
+/* line 1880, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-balance-scale:before {
+  content: "\f24e"; }
+
+/* line 1883, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hourglass-o:before {
+  content: "\f250"; }
+
+/* line 1887, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hourglass-1:before, .fa-hourglass-start:before {
+  content: "\f251"; }
+
+/* line 1891, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hourglass-2:before, .fa-hourglass-half:before {
+  content: "\f252"; }
+
+/* line 1895, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hourglass-3:before, .fa-hourglass-end:before {
+  content: "\f253"; }
+
+/* line 1898, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hourglass:before {
+  content: "\f254"; }
+
+/* line 1902, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-grab-o:before, .fa-hand-rock-o:before {
+  content: "\f255"; }
+
+/* line 1906, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-stop-o:before, .fa-hand-paper-o:before {
+  content: "\f256"; }
+
+/* line 1909, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-scissors-o:before {
+  content: "\f257"; }
+
+/* line 1912, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-lizard-o:before {
+  content: "\f258"; }
+
+/* line 1915, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-spock-o:before {
+  content: "\f259"; }
+
+/* line 1918, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-pointer-o:before {
+  content: "\f25a"; }
+
+/* line 1921, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-hand-peace-o:before {
+  content: "\f25b"; }
+
+/* line 1924, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-trademark:before {
+  content: "\f25c"; }
+
+/* line 1927, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-registered:before {
+  content: "\f25d"; }
+
+/* line 1930, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-creative-commons:before {
+  content: "\f25e"; }
+
+/* line 1933, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gg:before {
+  content: "\f260"; }
+
+/* line 1936, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-gg-circle:before {
+  content: "\f261"; }
+
+/* line 1939, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tripadvisor:before {
+  content: "\f262"; }
+
+/* line 1942, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-odnoklassniki:before {
+  content: "\f263"; }
+
+/* line 1945, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-odnoklassniki-square:before {
+  content: "\f264"; }
+
+/* line 1948, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-get-pocket:before {
+  content: "\f265"; }
+
+/* line 1951, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-wikipedia-w:before {
+  content: "\f266"; }
+
+/* line 1954, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-safari:before {
+  content: "\f267"; }
+
+/* line 1957, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-chrome:before {
+  content: "\f268"; }
+
+/* line 1960, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-firefox:before {
+  content: "\f269"; }
+
+/* line 1963, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-opera:before {
+  content: "\f26a"; }
+
+/* line 1966, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-internet-explorer:before {
+  content: "\f26b"; }
+
+/* line 1970, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-tv:before, .fa-television:before {
+  content: "\f26c"; }
+
+/* line 1973, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-contao:before {
+  content: "\f26d"; }
+
+/* line 1976, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-500px:before {
+  content: "\f26e"; }
+
+/* line 1979, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-amazon:before {
+  content: "\f270"; }
+
+/* line 1982, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calendar-plus-o:before {
+  content: "\f271"; }
+
+/* line 1985, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calendar-minus-o:before {
+  content: "\f272"; }
+
+/* line 1988, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calendar-times-o:before {
+  content: "\f273"; }
+
+/* line 1991, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-calendar-check-o:before {
+  content: "\f274"; }
+
+/* line 1994, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-industry:before {
+  content: "\f275"; }
+
+/* line 1997, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-map-pin:before {
+  content: "\f276"; }
+
+/* line 2000, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-map-signs:before {
+  content: "\f277"; }
+
+/* line 2003, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-map-o:before {
+  content: "\f278"; }
+
+/* line 2006, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-map:before {
+  content: "\f279"; }
+
+/* line 2009, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-commenting:before {
+  content: "\f27a"; }
+
+/* line 2012, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-commenting-o:before {
+  content: "\f27b"; }
+
+/* line 2015, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-houzz:before {
+  content: "\f27c"; }
+
+/* line 2018, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-vimeo:before {
+  content: "\f27d"; }
+
+/* line 2021, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-black-tie:before {
+  content: "\f27e"; }
+
+/* line 2024, D:/learn_HTML/projects/Kseniya/fortit/sass/font-awesome */
+.fa-fonticons:before {
+  content: "\f280"; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .wrapHeader {
@@ -131,7 +2683,7 @@ div {
   .headLines__main {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 48px;
     line-height: 48px;
     padding: 0;
     margin: 0;
@@ -327,6 +2879,89 @@ div {
   color: #c4c4c4;
   letter-spacing: -0.035em; }
 
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.wrapReview {
+  background-color: #fff;
+  background-image: url(../img/projects__bg-2.jpg);
+  background-repeat: repeat;
+  background-position: 0 0;
+  padding-bottom: 50px; }
+
+/* line 9, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.review__title {
+  color: #363636;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.025em;
+  padding-top: 115px;
+  padding-bottom: 80px;
+  margin: 0; }
+  /* line 19, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .review__title__boldWord {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold; }
+
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.wrapProcedure {
+  background-color: #28343e;
+  background-image: url(../img/projects__bg-3.jpg);
+  background-repeat: repeat;
+  background-position: 0 0;
+  color: #fff; }
+
+/* line 11, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.procedure__title {
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.025em;
+  padding-top: 100px;
+  padding-bottom: 65px;
+  margin: 0; }
+/* line 22, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.procedure__wrapPictures {
+  background-image: url(../img/procedure__bg.png);
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto; }
+/* line 31, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.procedure__block {
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: -0.035em;
+  padding-bottom: 50px; }
+/* line 39, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.procedure__describe {
+  margin: 0;
+  padding: 0;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.025em;
+  padding-bottom: 65px; }
+
+/* line 50, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.fa {
+  display: block;
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #066ac2;
+  padding: 25px;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .wrapProjects {
   background-color: #28343e;
@@ -360,6 +2995,72 @@ div {
 /* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .innerPaddingOff {
   padding: 0; }
+
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/entrust */
+.wrapEntrust {
+  background-color: #fff;
+  padding-bottom: 65px; }
+
+/* line 6, D:/learn_HTML/projects/Kseniya/fortit/sass/entrust */
+.entrust__title {
+  color: #363636;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.025em;
+  padding-top: 115px;
+  padding-bottom: 60px;
+  margin: 0; }
+  /* line 16, D:/learn_HTML/projects/Kseniya/fortit/sass/entrust */
+  .entrust__title__boldWord {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold; }
+
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.wrapRecommend {
+  background-color: #28343e;
+  background-image: url(../img/projects__bg-3.jpg);
+  background-repeat: repeat;
+  background-position: 0 0;
+  color: #fff;
+  padding-bottom: 65px; }
+
+/* line 10, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.recommend__title {
+  font-size: 48px;
+  line-height: 60px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.025em;
+  padding-top: 125px;
+  padding-bottom: 60px;
+  margin: 0; }
+  /* line 19, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  .recommend__title__boldWord {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold; }
+
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/award */
+.wrapAwards {
+  background-color: #fff;
+  padding-bottom: 140px; }
+
+/* line 6, D:/learn_HTML/projects/Kseniya/fortit/sass/award */
+.awards__title {
+  color: #363636;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.025em;
+  padding-top: 125px;
+  padding-bottom: 60px;
+  margin: 0; }
+  /* line 16, D:/learn_HTML/projects/Kseniya/fortit/sass/award */
+  .awards__title__boldWord {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/mapFooter */
 .wrapMap {
