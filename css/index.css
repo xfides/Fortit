@@ -243,7 +243,123 @@ div {
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .wrapActivities {
-  background: #ffffff; }
+  background: #fff;
+  padding-bottom: 120px; }
+
+/* line 8, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__title {
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.025em;
+  color: #363636;
+  padding-top: 130px;
+  margin: 0; }
+  /* line 17, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+  .activities__title__boldWord {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.025em;
+    color: #363636; }
+/* line 26, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__keySense {
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 30px;
+  color: #919191;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin: 0; }
+/* line 38, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__description {
+  position: relative; }
+/* line 41, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__bgImg {
+  width: 95%; }
+/* line 44, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases {
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 30px;
+  color: #606060;
+  position: absolute; }
+/* line 52, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--mounting {
+  top: 25%;
+  left: 80%; }
+/* line 56, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--musicDesign {
+  bottom: 3%;
+  left: 60%; }
+/* line 60, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--animation {
+  top: 40%;
+  left: 6%; }
+/* line 64, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--voiceWork {
+  top: 58%;
+  right: 1%; }
+/* line 68, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--scenes {
+  left: 15%;
+  top: 73%; }
+/* line 72, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--text {
+  left: 52%;
+  top: 2%; }
+/* line 76, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--audience {
+  left: 0;
+  top: 5%; }
+/* line 80, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+.activities__phrases--approval {
+  bottom: 2%;
+  left: 0;
+  font-size: 30px;
+  line-height: 40px;
+  color: #c4c4c4;
+  letter-spacing: -0.035em; }
+
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.wrapProjects {
+  background-color: #28343e;
+  background-image: url(../img/projects__bg-3.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
+
+/* line 10, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__title {
+  color: #fff;
+  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.025em;
+  padding-top: 130px;
+  padding-bottom: 95px;
+  margin: 0; }
+  /* line 20, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+  .projects__title__lightWord {
+    font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+    font-weight: 100; }
+/* line 25, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__img {
+  width: 100%; }
+/* line 28, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__img:hover {
+  outline: 2px solid #fff;
+  cursor: pointer; }
+
+/* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.innerPaddingOff {
+  padding: 0; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/mapFooter */
 .wrapMap {
