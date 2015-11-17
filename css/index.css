@@ -2926,6 +2926,40 @@ div {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold; }
 
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.wrapProjects {
+  background-color: #28343e;
+  background-image: url(../img/projects__bg-3.jpg);
+  background-repeat: repeat;
+  background-position: 0 0; }
+
+/* line 10, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__title {
+  color: #fff;
+  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.025em;
+  padding-top: 130px;
+  padding-bottom: 95px;
+  margin: 0; }
+  /* line 20, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+  .projects__title__lightWord {
+    font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+    font-weight: 100; }
+/* line 25, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__img {
+  width: 100%; }
+/* line 28, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__img:hover {
+  outline: 2px solid #fff;
+  cursor: pointer; }
+
+/* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.innerPaddingOff {
+  padding: 0; }
+
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
 .wrapProcedure {
   background-color: #28343e;
@@ -2969,9 +3003,8 @@ div {
   line-height: 26px;
   letter-spacing: -0.025em;
   padding-bottom: 65px; }
-
-/* line 50, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
-.fa {
+/* line 49, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
+.procedure__fa {
   display: block;
   color: #ffffff;
   font-size: 30px;
@@ -2985,39 +3018,58 @@ div {
   margin: 0 auto;
   margin-bottom: 20px; }
 
-/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
-.wrapProjects {
-  background-color: #28343e;
-  background-image: url(../img/projects__bg-3.jpg);
-  background-repeat: repeat;
-  background-position: 0 0; }
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.wrapCost {
+  background: #fff; }
 
-/* line 10, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
-.projects__title {
-  color: #fff;
-  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
-  font-weight: bold;
+/* line 5, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__title {
+  color: #363636;
   font-size: 48px;
-  line-height: 48px;
+  line-height: 60px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
   letter-spacing: -0.025em;
-  padding-top: 130px;
-  padding-bottom: 95px;
+  padding-top: 125px;
+  padding-bottom: 90px;
   margin: 0; }
-  /* line 20, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
-  .projects__title__lightWord {
-    font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
-    font-weight: 100; }
-/* line 25, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
-.projects__img {
-  width: 100%; }
-/* line 28, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
-.projects__img:hover {
-  outline: 2px solid #fff;
-  cursor: pointer; }
-
-/* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
-.innerPaddingOff {
-  padding: 0; }
+  /* line 15, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+  .cost__title__boldWord {
+    font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+    font-weight: bold; }
+/* line 20, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__orderBtn {
+  padding: 0;
+  margin: 0; }
+/* line 24, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__btn {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 340px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 60px;
+  background: #e83a00;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -0.025em; }
+/* line 41, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__btn:hover {
+  background-color: #ca0202; }
+/* line 44, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__tableBorderBotom {
+  background-image: url(../img/cost__bottomBorder.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 100px;
+  -webkit-background-size: 95% auto;
+  background-size: 95% auto;
+  margin-bottom: 25px; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/entrust */
 .wrapEntrust {
@@ -3039,6 +3091,9 @@ div {
   .entrust__title__boldWord {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold; }
+/* line 21, D:/learn_HTML/projects/Kseniya/fortit/sass/entrust */
+.entrust__img {
+  margin-bottom: 15px; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .wrapRecommend {
@@ -3117,9 +3172,10 @@ div {
   line-height: 28px;
   padding-top: 0;
   margin-top: 0;
-  width: 95%; }
+  width: 95%;
+  margin-bottom: 90px; }
 
-/* line 59, D:/learn_HTML/projects/Kseniya/fortit/sass/team */
+/* line 60, D:/learn_HTML/projects/Kseniya/fortit/sass/team */
 .moreRightPadding {
   padding-right: 70px; }
 
@@ -3143,6 +3199,9 @@ div {
   .awards__title__boldWord {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold; }
+/* line 21, D:/learn_HTML/projects/Kseniya/fortit/sass/award */
+.awards__wrapImg {
+  margin-bottom: 15px; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
 .wrapFooter {
