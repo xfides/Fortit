@@ -2819,6 +2819,46 @@ div {
   .request__btn:hover, .frequest__btn:hover {
     background-color: #ca0202; }
 
+@media (max-width: 1200px) {
+  /* line 206, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .intro {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center; }
+
+  /* line 211, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .request {
+    padding-left: 30px; }
+ }
+
+@media (max-width: 992px) {
+  /* line 218, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .request__title {
+    margin-top: 30px; }
+
+  /* line 222, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling {
+    float: none;
+    text-align: center; }
+
+  /* line 227, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling__russia, .calling__number {
+    display: inline;
+    padding-right: 30px; }
+ }
+
+@media (max-width: 768px) {
+  /* line 234, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling {
+    float: none;
+    text-align: center; }
+
+  /* line 239, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .calling__russia, .calling__number {
+    display: block;
+    padding-right: 0; }
+ }
+
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .wrapActivities {
   background: #fff;
@@ -2878,16 +2918,16 @@ div {
   left: 60%; }
 /* line 60, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .activities__phrases--animation {
-  top: 40%;
+  top: 45%;
   left: 6%; }
 /* line 64, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .activities__phrases--voiceWork {
-  top: 58%;
-  right: 1%; }
+  top: 52%;
+  right: 0%; }
 /* line 68, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .activities__phrases--scenes {
   left: 15%;
-  top: 73%; }
+  top: 76%; }
 /* line 72, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .activities__phrases--text {
   left: 52%;
@@ -2895,7 +2935,7 @@ div {
 /* line 76, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .activities__phrases--audience {
   left: 0;
-  top: 5%; }
+  top: 8%; }
 /* line 80, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
 .activities__phrases--approval {
   bottom: 2%;
@@ -2904,6 +2944,25 @@ div {
   line-height: 40px;
   color: #c4c4c4;
   letter-spacing: -0.035em; }
+
+@media (max-width: 1200px) {
+  /* line 91, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+  .activities__phrases--approval {
+    bottom: -14%; }
+ }
+
+@media (max-width: 768px) {
+  /* line 97, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+  .activities__phrases {
+    display: none; }
+
+  /* line 101, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */
+  .activities__phrases--approval {
+    bottom: -14%;
+    display: block;
+    color: #000;
+    text-shadow: #fff 1px 0px, #fff 1px 1px, #fff 0px 1px, #fff -1px 1px, #fff -1px 0px, #fff -1px -1px, #fff 0px -1px, #fff 1px -1px; }
+ }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
 .wrapReview {
@@ -3431,11 +3490,11 @@ td.text-left span {
     margin-bottom: 15px; }
 
 @media (max-width: 992px) {
-  /* line 153, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
+  /* line 156, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
   .footer {
     text-align: center; }
 
-  /* line 157, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
+  /* line 159, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
   .footer__logoImg {
     margin: 0 auto; }
 
@@ -3443,19 +3502,19 @@ td.text-left span {
   .footer__icons {
     margin-bottom: 80px; }
 
-  /* line 166, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
+  /* line 165, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
   .wrapFooter {
     height: auto;
     background-image: url(../img/projects__bg-2.jpg);
     background-repeat: repeat;
     background-position: 0 0; }
 
-  /* line 173, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
+  /* line 171, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
   .wrapMap {
     height: 300px;
     margin-bottom: 20px; }
 
-  /* line 178, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
+  /* line 175, D:/learn_HTML/projects/Kseniya/fortit/sass/footer */
   .container.footerContainer {
     position: relative; }
  }
