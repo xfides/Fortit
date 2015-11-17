@@ -133,7 +133,7 @@ window.onload = function () {
   /*--------Кнопка прокрутить вверх------------*/
 
   /*---------Плавный переход по якорям----------*/
-  
+
   $(document).ready(function(){
     $('a[href*=#]').bind("click", function(e){
       var anchor = $(this);
