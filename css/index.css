@@ -2653,11 +2653,10 @@ div {
   color: #fff; }
 /* line 36, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .nav__link:hover {
-  color: #999;
-  text-decoration: none;
-  text-shadow: #e83a00 0.5px 0px, #e83a00 0.5px 0.5px, #e83a00 0px 0.5px, #e83a00 -0.5px 0.5px, #e83a00 -0.5px 0px, #e83a00 -0.5px -0.5px, #e83a00 0px -0.5px, #e83a00 0.5px -0.5px; }
+  color: #e83a00;
+  text-decoration: none; }
 
-/* line 43, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 42, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .calling {
   float: right;
   font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
@@ -2665,17 +2664,17 @@ div {
   font-size: 14px;
   line-height: 20px;
   color: #fff; }
-  /* line 50, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 49, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__russia {
     display: block; }
-  /* line 53, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 52, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__number {
     display: block;
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: bold; }
-  /* line 60, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 59, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__toOrder {
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
@@ -2688,17 +2687,17 @@ div {
     border: none;
     padding: 0;
     margin: 0; }
-  /* line 73, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 72, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__toOrder:hover {
     color: #e83a00;
     text-decoration: none; }
 
-/* line 79, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 78, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .headLines {
   padding-top: 40px;
   padding-bottom: 50px;
   color: #fff; }
-  /* line 83, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 82, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .headLines__main {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold;
@@ -2708,7 +2707,7 @@ div {
     margin: 0;
     padding-bottom: 10px;
     letter-spacing: -0.025em; }
-  /* line 93, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 92, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .headLines__discount {
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
@@ -2718,14 +2717,14 @@ div {
     padding: 0;
     margin: 0; }
 
-/* line 104, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 103, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .intro {
   padding-top: 70px;
   padding-bottom: 70px;
   padding-left: 60px;
   padding-right: 60px;
   background-color: rgba(0, 0, 0, 0.4); }
-  /* line 110, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 109, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .intro__video {
     display: block;
     width: 100%;
@@ -2734,11 +2733,11 @@ div {
     margin: 0;
     padding: 0; }
 
-/* line 120, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 119, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .request {
   padding-left: 70px;
   padding-right: 30px; }
-  /* line 123, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 122, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__title {
     color: #fff;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
@@ -2749,7 +2748,7 @@ div {
     margin-top: 0;
     margin-bottom: 35px;
     letter-spacing: -0.025em; }
-  /* line 134, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 133, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input, .frequest__input {
     display: block;
     -webkit-box-sizing: border-box;
@@ -2763,38 +2762,38 @@ div {
     font-weight: bold;
     font-size: 16px;
     line-height: 18px; }
-  /* line 148, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 147, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input:last-of-type, .frequest__input:last-of-type {
     margin-bottom: 30px; }
-  /* line 151, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 150, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input::-webkit-input-placeholder, .frequest__input::-webkit-input-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 158, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 157, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input::-moz-placeholder, .frequest__input::-moz-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 165, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 164, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input:-moz-placeholder, .frequest__input:-moz-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 172, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 171, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input:-ms-input-placeholder, .frequest__input:-ms-input-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 179, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 178, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__btn, .frequest__btn {
     display: block;
     -webkit-box-sizing: border-box;
@@ -2812,7 +2811,7 @@ div {
     padding: 0;
     margin: 0;
     letter-spacing: -0.025em; }
-  /* line 197, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 196, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__btn:hover, .frequest__btn:hover {
     background-color: #ca0202; }
 
