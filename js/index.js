@@ -204,6 +204,35 @@ window.onload = function () {
   $(window).resize(toShowMenu);
 // управляет показом меню
   /*--------показать\выключить меню---------------*/
+
+/*--------- modalVideo------------------------------*/
+
+  //$('.projects__img').mouseenter(function(){
+  //  $('.modalVideo').fadeIn("slow");
+  //});
+  //
+  //$('.projects__img').mouseleave(function(){
+  //
+  //  $('.modalVideo').fadeOut("slow");
+  //});
+
+  /*--------- modalVideo------------------------------*/
+
+  /*-----------------------slider------------------------*/
+  //
+  //$('.rvSlider__inner').slick({
+  //  dots: true,
+  //  infinite: true,
+  //  speed: 300,
+  //  slidesToShow: 1,
+  //  adaptiveHeight: true
+  //});
+
+
+
+
+  /*-----------------------slider------------------------*/
+
 };
 
 

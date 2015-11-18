@@ -2651,8 +2651,8 @@ div {
   /* line 27, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .nav__item {
     display: inline-block;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 14px;
+    padding-right: 14px;
     outline: 1px solid red;
     text-decoration: none; }
   /* line 34, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
@@ -3024,7 +3024,7 @@ div {
   background-image: url(../img/projects__bg-2.jpg);
   background-repeat: repeat;
   background-position: 0 0;
-  padding-bottom: 50px; }
+  padding-bottom: 120px; }
 
 /* line 9, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
 .review__title {
@@ -3041,6 +3041,129 @@ div {
   .review__title__boldWord {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold; }
+/* line 24, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.review__item {
+  font-size: 0; }
+
+/* line 41, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.carousel-indicators {
+  bottom: -60px; }
+
+/* line 45, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.carousel-indicators li {
+  background-color: transparent;
+  border-color: #b9b9b9; }
+
+/* line 50, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.carousel-indicators li.active {
+  border-color: #e83a00; }
+
+/* line 55, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__img {
+  width: 100%; }
+/* line 58, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__wrapImg {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle; }
+/* line 63, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__description {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  padding-left: 7%; }
+/* line 70, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__title {
+  color: #363636;
+  font-size: 30px;
+  line-height: 48px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  margin-top: 0;
+  letter-spacing: -0.025em; }
+/* line 79, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__shortWords {
+  color: #363636;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100; }
+/* line 87, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__longWords {
+  padding-right: 50px;
+  padding-left: 0;
+  list-style-type: none;
+  color: #363636;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100; }
+/* line 97, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__item {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 85px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px; }
+/* line 105, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__item--30 {
+  background-image: url(../img/review__30.png);
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%; }
+/* line 110, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__item--60 {
+  background-image: url(../img/review__60.png);
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%; }
+/* line 115, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+.slide__item--80 {
+  background-image: url(../img/review__80.png);
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%; }
+
+@media (max-width: 992px) {
+  /* line 123, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__wrapImg {
+    display: none; }
+
+  /* line 126, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__description {
+    width: 100%; }
+
+
+  /* line 132, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__item--30 {
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%; }
+
+  /* line 136, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__item--60 {
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%; }
+
+  /* line 140, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__item--80 {
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%; }
+ }
+
+@media (max-width: 769px) {
+  /* line 147, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__item--30 {
+    -webkit-background-size: auto 80%;
+    background-size: auto 80%; }
+
+  /* line 152, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__item--60 {
+    -webkit-background-size: auto 80%;
+    background-size: auto 80%; }
+
+  /* line 157, D:/learn_HTML/projects/Kseniya/fortit/sass/review */
+  .slide__item--80 {
+    -webkit-background-size: auto 80%;
+    background-size: auto 80%; }
+ }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .wrapProjects {
@@ -3075,6 +3198,21 @@ div {
 /* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .innerPaddingOff {
   padding: 0; }
+
+/* line 37, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.modalVideo {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 22;
+  color: #fff; }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
 .wrapProcedure {
