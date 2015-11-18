@@ -3189,17 +3189,40 @@ div {
     font-weight: 100; }
 /* line 25, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .projects__img {
+  display: table-cell !important;
+  vertical-align: middle;
   width: 100%; }
-/* line 28, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+/* line 30, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .projects__img:hover {
   outline: 2px solid #fff;
   cursor: pointer; }
+/* line 35, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.projects__describeWork {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.025em;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  overflow: hidden; }
 
-/* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+/* line 56, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .innerPaddingOff {
-  padding: 0; }
+  padding: 0;
+  position: relative; }
 
-/* line 37, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+/* line 61, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
 .modalVideo {
   display: none;
   position: fixed;
@@ -3213,6 +3236,12 @@ div {
   background: rgba(0, 0, 0, 0.8);
   z-index: 22;
   color: #fff; }
+
+@media (max-width: 768px) {
+  /* line 78, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+  .projects__describeWork {
+    font-size: 12px; }
+ }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
 .wrapProcedure {
@@ -3365,18 +3394,29 @@ div {
   font-weight: bold;
   color: #92bf31;
   font-style: normal; }
+/* line 84, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__mobile {
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 50px;
+  display: none; }
+/* line 91, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+.cost__mobile--boldWord {
+  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+  font-weight: bold; }
 
-/* line 86, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 97, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 .fa-check {
   color: #92bf31;
   font-size: 18px; }
 
-/* line 91, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 102, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 .fa-times {
   color: #d7575a;
   font-size: 18px; }
 
-/* line 96, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 107, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 table span {
   background: #fff;
   vertical-align: middle;
@@ -3388,7 +3428,7 @@ table span {
   padding-left: 10px;
   padding-right: 10px; }
 
-/* line 108, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 119, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 td.text-left span {
   float: left;
   padding-right: 10px;
@@ -3396,20 +3436,34 @@ td.text-left span {
   padding-top: 3px;
   padding-bottom: 3px; }
 
-/* line 116, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 127, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 .table > tbody > tr > td {
   vertical-align: middle;
   padding-left: 0;
   border: none; }
 
-/* line 121, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 132, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 .table > thead > tr > th {
   border-bottom: none; }
 
-/* line 125, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+/* line 136, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
 .cost__tr--bold__text.cost__specialWord {
   padding-bottom: 20px;
   padding-top: 20px; }
+
+@media (max-width: 768px) {
+  /* line 142, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+  .table-responsive {
+    display: none; }
+
+  /* line 145, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+  .cost__tableBorderBotom {
+    padding-bottom: 40px; }
+
+  /* line 148, D:/learn_HTML/projects/Kseniya/fortit/sass/cost */
+  .cost__mobile {
+    display: block; }
+ }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/entrust */
 .wrapEntrust {
@@ -3510,9 +3564,9 @@ td.text-left span {
   background: #7f8893;
   position: absolute;
   content: ' ';
-  z-index: 1000;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 4; }
 
 /* line 82, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .rcmSlider__slide {
@@ -3524,6 +3578,7 @@ td.text-left span {
   line-height: 0;
   position: absolute;
   top: 92%;
+  z-index: 6;
   display: block;
   width: 75px;
   height: 75px;
@@ -3538,7 +3593,7 @@ td.text-left span {
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 115, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+/* line 116, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .slick-prev:before {
   display: inline;
   content: '\f053';
@@ -3549,7 +3604,7 @@ td.text-left span {
   margin-left: -5px;
   cursor: pointer; }
 
-/* line 126, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+/* line 127, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .slick-next:before {
   display: inline;
   content: '\f054';
@@ -3560,27 +3615,27 @@ td.text-left span {
   margin-right: -5px;
   cursor: pointer; }
 
-/* line 137, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+/* line 138, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .slick-next {
   right: 0; }
 
-/* line 141, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+/* line 142, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .slick-dots li {
   display: none; }
 
 @media (max-width: 768px) {
-  /* line 147, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  /* line 148, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
   .recommend__ing {
     width: 110px;
     height: 110px;
     float: left;
     margin-right: 0; }
 
-  /* line 154, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  /* line 155, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
   .rcmSlider__slide {
     padding-right: 5px; }
 
-  /* line 157, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  /* line 158, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
   .recommend__comment {
     padding-right: 0; }
  }
