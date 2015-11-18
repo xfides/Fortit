@@ -182,9 +182,9 @@ window.onload = function () {
       //   }
       //
       //}
-        $('html, body').stop().animate({
-          scrollTop: $(anchor.attr('href')).offset().top
-        }, 1000);
+      $('html, body').stop().animate({
+        scrollTop: $(anchor.attr('href')).offset().top
+      }, 1000);
 
       e.preventDefault();
     });
@@ -229,10 +229,6 @@ window.onload = function () {
   $(window).resize(toShowMenu);
 // управляет показом меню
   /*--------показать\выключить меню---------------*/
-
-
-  /*--------- modalVideo------------------------------*/
-
 
 
   //$(".ih-item.square.effect6.from_top_and_bottom>a").click(function (e) {
@@ -283,18 +279,15 @@ window.onload = function () {
 
 };
 
+/*--------- modalVideo------------------------------*/
 
-$(document).ready(function() {
-  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-
-    fixedContentPos: false
-  });
+$('.youtube').colorbox({
+  iframe: true,
+  maxWidth: "640px",
+  width: "90%",
+  height: "390px"
 });
+
 /*--------- modalVideo------------------------------*/
 
 
