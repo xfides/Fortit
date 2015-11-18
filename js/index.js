@@ -158,9 +158,14 @@ window.onload = function () {
   $(document).ready(function () {
     $('a[href*=#]').bind("click", function (e) {
       var anchor = $(this);
-      $('html, body').stop().animate({
-        scrollTop: $(anchor.attr('href')).offset().top
-      }, 1000);
+
+      if (anchor.hasClass("projects__hoverLink")) {
+        alert("попали на ссылку проекта");
+      } else {
+        $('html, body').stop().animate({
+          scrollTop: $(anchor.attr('href')).offset().top
+        }, 1000);
+      }
       e.preventDefault();
     });
     return false;
@@ -205,35 +210,35 @@ window.onload = function () {
 // управляет показом меню
   /*--------показать\выключить меню---------------*/
 
-/*--------- modalVideo------------------------------*/
-
-  //$('.projects__img').mouseenter(function(){
-  //  $('.modalVideo').fadeIn("slow");
-  //});
-  //
-  //$('.projects__img').mouseleave(function(){
-  //
-  //  $('.modalVideo').fadeOut("slow");
-  //});
 
   /*--------- modalVideo------------------------------*/
 
-  /*-----------------------slider------------------------*/
+
+  /*--------- modalVideo------------------------------*/
+
+  //$(".ih-item.square.effect6.from_top_and_bottom>a").click(function (e) {
+  //  e.preventDefault();
+  //  alert('Вы нажали на элемент ПРОЕКТ"');
+  //  alert($(this));
+  //});
+
+
+  /*-----------------------slider-2------------------------*/
 
   $('.rcmSlider__inner').slick({
-    appendArrows:$('.rcmSlider'),
-    accessibility:true,
+    appendArrows: $('.rcmSlider'),
+    accessibility: true,
     dots: false,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     speed: 300,
-    autoplaySpeed:7000,
-    draggable:true,
-    arrows:true,
-    useCSS:true,
+    autoplaySpeed: 7000,
+    draggable: true,
+    arrows: true,
+    useCSS: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    waitForAnimate:true,
+    waitForAnimate: true,
     responsive: [
       {
         breakpoint: 1200,
@@ -254,10 +259,8 @@ window.onload = function () {
     ]
   });
 
+  /*-----------------------slider-2------------------------*/
 
-
-
-  /*-----------------------slider------------------------*/
 
 };
 

@@ -3254,10 +3254,32 @@ div {
   height: auto;
   border: none; }
 
+/* line 97, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.ih-item.square.effect6 .info .info__slideHoverTitle {
+  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px; }
+
+/* line 104, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.ih-item.square.effect6 .info .info__slideHoverText {
+  font-family: "open_light", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 14px; }
+
 @media (max-width: 992px) {
-  /* line 101, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+  /* line 112, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
   .projects__describeWork {
     font-size: 12px; }
+
+  /* line 117, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+  .ih-item.square.effect6 .info .info__slideHoverTitle {
+    font-size: 14px;
+    margin-top: 10px; }
+
+  /* line 122, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+  .ih-item.square.effect6 .info .info__slideHoverText {
+    font-size: 10px; }
  }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
