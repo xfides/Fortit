@@ -155,17 +155,37 @@ window.onload = function () {
 
   /*---------Плавный переход по якорям----------*/
 
+
   $(document).ready(function () {
+
+    //var beginVideo = '<iframe class="intro__video" src="';
+    //var endVideo = '" allowfullscreen></iframe>';
+    //var wholeVideo = '';
+    //
+    //var videos= {
+    //    "info--1" : "https://www.youtube.com/embed/Xho2ZZCJvXo",
+    //    "info--2" : "https://www.youtube.com/embed/RUDwa4-jQ0E"
+    //  };
     $('a[href*=#]').bind("click", function (e) {
       var anchor = $(this);
 
-      if (anchor.hasClass("projects__hoverLink")) {
-        alert("попали на ссылку проекта");
-      } else {
+      //if (anchor.hasClass("projects__hoverLink")) {
+      //  alert("попали на ссылку проекта");
+      //  var thisProject = anchor.find(".info");
+      //
+      //   for (key in videos) {
+      //     if(thisProject.hasClass(key)) {
+      //       wholeVideo = beginVideo+videos[key]+endVideo;
+      //       alert(wholeVideo);
+      //     }
+      //
+      //   }
+      //
+      //}
         $('html, body').stop().animate({
           scrollTop: $(anchor.attr('href')).offset().top
         }, 1000);
-      }
+
       e.preventDefault();
     });
     return false;
@@ -214,7 +234,6 @@ window.onload = function () {
   /*--------- modalVideo------------------------------*/
 
 
-  /*--------- modalVideo------------------------------*/
 
   //$(".ih-item.square.effect6.from_top_and_bottom>a").click(function (e) {
   //  e.preventDefault();
@@ -265,7 +284,18 @@ window.onload = function () {
 };
 
 
+$(document).ready(function() {
+  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+    disableOn: 700,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
 
+    fixedContentPos: false
+  });
+});
+/*--------- modalVideo------------------------------*/
 
 
 

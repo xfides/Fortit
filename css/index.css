@@ -3282,6 +3282,41 @@ div {
     font-size: 10px; }
  }
 
+/* -  for poopups plugin ----------*/
+/**
+ * Simple fade transition,
+ */
+/* line 132, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out; }
+
+/* line 138, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8; }
+
+/* line 141, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0; }
+
+/* line 145, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out; }
+
+/* line 151, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1; }
+
+/* line 154, D:/learn_HTML/projects/Kseniya/fortit/sass/projects */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0; }
+
+/* -  for poopups plugin ----------*/
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/procedure */
 .wrapProcedure {
   background-color: #28343e;
