@@ -3965,3 +3965,21 @@ td.text-left span {
   .container.footerContainer {
     position: relative; }
  }
+
+/* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/modalForm */
+.modalForm {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 50px; }
+
+/* line 8, D:/learn_HTML/projects/Kseniya/fortit/sass/modalForm */
+.requestModal {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  background-color: #28343e;
+  background-image: url("../img/projects__bg-3.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+  padding-top: 20px;
+  padding-bottom: 30px; }

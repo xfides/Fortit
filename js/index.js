@@ -288,6 +288,14 @@ $('.youtube').colorbox({
   height: "390px"
 });
 
+$('.toOpenModalForm').colorbox({
+  inline: true,
+  href:"#toOrderVideoModal",
+  maxWidth: "640px",
+  width: "90%"
+});
+
+
 /*--------- modalVideo------------------------------*/
 
 

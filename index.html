@@ -87,7 +87,7 @@
             <p class="header__calling calling">
               <span class="calling__russia">Звонок по России бесплатный</span>
               <span class="calling__number">8 804 3333 221</span>
-              <button class="calling__toOrder">
+              <button class="calling__toOrder toOpenModalForm">
                 Заказать звонок
               </button>
               <!-- /.calling__toOrder -->
@@ -144,7 +144,7 @@
                      class="request__input">
               <input type="tel" placeholder="Номер телефона для быстрой связи"
                      class="request__input">
-              <button class="request__btn">
+              <button class="request__btn toOpenModalForm">
                 Заказать видео ролик
               </button>
               <!-- /.request__btn -->
@@ -978,7 +978,7 @@
         <div class="row">
           <div class="col-sm-12">
             <p class="cost__orderBtn text-center">
-              <button class="cost__btn">Заказать видео ролик</button>
+              <button class="cost__btn toOpenModalForm">Заказать видео ролик</button>
               <!-- /.cost__btn -->
             </p>
             <!-- /.cost__orderBtn -->
@@ -1402,7 +1402,6 @@
   <!-- /.wrapAwards -->
 
   <div class="wrapFooter" id="contacts">
-
     <div class="wrapMap" id="mapCanvas">
     </div>
     <!-- /.wrapMap -->
@@ -1479,7 +1478,7 @@
                      placeholder="Представьтесь, пожалуйста">
               <input class="frequest__input" type="tel"
                      placeholder="Номер телефона для быстрой связи">
-              <button class="frequest__btn">
+              <button class="frequest__btn toOpenModalForm">
                 Перезвоните мне
               </button>
               <!-- /.frequest__btn -->
@@ -1493,8 +1492,6 @@
       <!-- /.footer -->
     </div>
     <!-- /.container -->
-
-
   </div>
   <!-- /.wrapFooter -->
 
@@ -1506,10 +1503,26 @@
   <!-- btnUp -->
   <!-- Button to scrollUP -->
 
-  <div class="modalVideo">
-    drydrydrtydrtydrtydrtydrt
+  <div class="modalForm" style="display: none" >
+    <form action="#" class="request requestModal" id="toOrderVideoModal">
+      <h2 class="request__title">
+        Оставьте заявку! Мы вам перезвоним!
+      </h2>
+      <!-- /.request__title -->
+      <input type="text" placeholder="Представьтесь, пожалуйста"
+             class="request__input">
+      <input type="text" placeholder="Электропочта для ответа"
+             class="request__input">
+      <input type="tel" placeholder="Номер телефона для быстрой связи"
+             class="request__input">
+      <button class="request__btn toOpenModalForm">
+        Заказать видео ролик
+      </button>
+      <!-- /.request__btn -->
+    </form>
+    <!-- /.request -->
   </div>
-  <!-- /.modalVideo -->
+  <!-- /.modalForm -->
 
   <!-- .............................................................. -->
   <!-- scripts jquery.js, bootsrap.min.js and index.js -->
