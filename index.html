@@ -35,54 +35,55 @@
 
         <div class="header">
 
-          <div class="col-lg-3 col-md-2 col-sm-3">
+
+          <div class="col-lg-3 col-md-2 col-sm-3 col-xs-6">
             <div class="header__logo">
               <img src="img/header__logo.png" alt="Логотип ФОРТИТ"
                    class="img-responsive">
             </div>
             <!-- /.header__logo -->
           </div>
-          <!-- /.col-lg-2 col-md-3 col-sm- -->
-          <div class="col-lg-6 col-md-7 col-sm-9">
-            <nav class="header__nav nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#ourTeam" class="nav__link">
-                    О нас
-                  </a>
-                  <!-- /.nav__link -->
-                </li>
-                <!-- /.nav__item -->
-                <li class="nav__item">
-                  <a href="#service" class="nav__link">
-                    Услуги
-                  </a>
-                  <!-- /.nav__link -->
-                </li>
-                <!-- /.nav__item -->
-                <li class="nav__item">
-                  <a href="#toOrderVideo" class="nav__link">
-                    Оставить заявку
-                  </a>
-                  <!-- /.nav__link -->
-                </li>
-                <!-- /.nav__item -->
-                <li class="nav__item">
-                  <a href="#contacts" class="nav__link">
-                    Контакты
-                  </a>
-                  <!-- /.nav__link -->
-                </li>
-                <!-- /.nav__item -->
-              </ul>
-              <!-- /.nav__list -->
+          <!-- /.col-lg-2 col-md-3 col-sm-  col-xs-2-->
+          <div class="col-lg-6 col-md-7 col-sm-9 col-xs-12">
+            <nav class="header__nav nav collapse in" id="collapseExample">
+                <ul class="nav__list" aria-labelledby="dLabel">
+                  <li class="nav__item">
+                    <a href="#ourTeam" class="nav__link">
+                      О нас
+                    </a>
+                    <!-- /.nav__link -->
+                  </li>
+                  <!-- /.nav__item -->
+                  <li class="nav__item">
+                    <a href="#service" class="nav__link">
+                      Услуги
+                    </a>
+                    <!-- /.nav__link -->
+                  </li>
+                  <!-- /.nav__item -->
+                  <li class="nav__item">
+                    <a href="#toOrderVideo" class="nav__link">
+                      Оставить заявку
+                    </a>
+                    <!-- /.nav__link -->
+                  </li>
+                  <!-- /.nav__item -->
+                  <li class="nav__item">
+                    <a href="#contacts" class="nav__link">
+                      Контакты
+                    </a>
+                    <!-- /.nav__link -->
+                  </li>
+                  <!-- /.nav__item -->
+                </ul>
+                <!-- /.nav__list -->
             </nav>
             <!-- /.header__nav nav -->
           </div>
-          <!-- /.col-lg-6 col-md-6 col-sm- -->
+          <!-- /.col-lg-6 col-md-6 col-sm-9 col-xs-12-->
 
 
-          <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <p class="header__calling calling">
               <span class="calling__russia">Звонок по России бесплатный</span>
               <span class="calling__number">8 804 3333 221</span>
@@ -94,9 +95,18 @@
             <!-- /.header__calling calling -->
           </div>
           <!-- /.col-lg-4 col-md-3 col-sm- -->
+
+
+          <div class="header__control">
+            <button class="header__ControlBtn" type="button" data-toggle="collapse"
+                    data-target="#collapseExample" aria-expanded="false"
+                    aria-controls="collapseExample">
+              MENU
+            </button>
+          </div>
+
         </div>
         <!-- /.header -->
-
 
 
       </div>
@@ -1232,13 +1242,14 @@
 
   <!-- .............................................................. -->
   <!-- scripts jquery.js, bootsrap.min.js and index.js -->
-  <script type="text/javascript"
-          src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript">
-    if (typeof jQuery == 'undefined') {
-      document.write(unescape("%3Cscript src='/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));
-    }
-  </script>
+  <!--<script type="text/javascript"-->
+          <!--src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+  <!--<script type="text/javascript">-->
+    <!--if (typeof jQuery == 'undefined') {-->
+      <!--document.write(unescape("%3Cscript src='/js/jquery-1.11.3.min.js' type='text/javascript'%3E%3C/script%3E"));-->
+    <!--}-->
+  <!--</script>-->
+  <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script
     src="https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script>

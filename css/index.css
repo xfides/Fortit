@@ -2635,32 +2635,35 @@ div {
   padding-top: 50px;
   padding-bottom: 70px; }
 
-/* line 15, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
-.nav__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
-  font-weight: 100;
-  font-size: 18px;
-  line-height: 48px; }
-/* line 26, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
-.nav__item {
-  display: inline-block;
-  padding-left: 22px;
-  padding-right: 22px;
-  outline: 1px solid red;
-  text-decoration: none; }
-/* line 33, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
-.nav__link {
-  color: #fff; }
-/* line 38, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
-.nav__link:hover, .nav__link:active, .nav__link:focus {
-  color: #e83a00;
-  text-decoration: none; }
+/* line 14, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.nav {
+  position: relative; }
+  /* line 16, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 48px; }
+  /* line 27, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .nav__item {
+    display: inline-block;
+    padding-left: 22px;
+    padding-right: 22px;
+    outline: 1px solid red;
+    text-decoration: none; }
+  /* line 34, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .nav__link {
+    color: #fff; }
+  /* line 39, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .nav__link:hover, .nav__link:active, .nav__link:focus {
+    color: #e83a00;
+    text-decoration: none; }
 
-/* line 44, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 45, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .calling {
   float: right;
   font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
@@ -2668,17 +2671,17 @@ div {
   font-size: 14px;
   line-height: 20px;
   color: #fff; }
-  /* line 51, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 52, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__russia {
     display: block; }
-  /* line 54, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 55, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__number {
     display: block;
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: bold; }
-  /* line 61, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 62, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__toOrder {
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
@@ -2691,17 +2694,21 @@ div {
     border: none;
     padding: 0;
     margin: 0; }
-  /* line 76, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 77, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__toOrder:hover, .calling__toOrder:active, .calling__toOrder:focus {
     color: #e83a00;
     text-decoration: none; }
 
-/* line 82, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 83, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.header {
+  position: relative; }
+
+/* line 87, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .headLines {
   padding-top: 40px;
   padding-bottom: 50px;
   color: #fff; }
-  /* line 86, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 91, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .headLines__main {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold;
@@ -2711,7 +2718,7 @@ div {
     margin: 0;
     padding-bottom: 10px;
     letter-spacing: -0.025em; }
-  /* line 96, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 101, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .headLines__discount {
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
@@ -2721,14 +2728,14 @@ div {
     padding: 0;
     margin: 0; }
 
-/* line 107, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 112, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .intro {
   padding-top: 70px;
   padding-bottom: 70px;
   padding-left: 60px;
   padding-right: 60px;
   background-color: rgba(0, 0, 0, 0.4); }
-  /* line 113, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 118, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .intro__video {
     display: block;
     width: 100%;
@@ -2737,11 +2744,11 @@ div {
     margin: 0;
     padding: 0; }
 
-/* line 123, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+/* line 128, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
 .request {
   padding-left: 70px;
   padding-right: 30px; }
-  /* line 126, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 131, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__title {
     color: #fff;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
@@ -2752,7 +2759,7 @@ div {
     margin-top: 0;
     margin-bottom: 35px;
     letter-spacing: -0.025em; }
-  /* line 137, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 142, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input, .frequest__input {
     display: block;
     -webkit-box-sizing: border-box;
@@ -2766,38 +2773,38 @@ div {
     font-weight: bold;
     font-size: 16px;
     line-height: 18px; }
-  /* line 151, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 156, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input:last-of-type, .frequest__input:last-of-type {
     margin-bottom: 30px; }
-  /* line 154, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 159, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input::-webkit-input-placeholder, .frequest__input::-webkit-input-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 161, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 166, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input::-moz-placeholder, .frequest__input::-moz-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 168, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 173, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input:-moz-placeholder, .frequest__input:-moz-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 175, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 180, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__input:-ms-input-placeholder, .frequest__input:-ms-input-placeholder {
     color: #000;
     font-size: 15px;
     font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
     font-weight: 100;
     letter-spacing: -0.025em; }
-  /* line 182, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 187, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__btn, .frequest__btn {
     display: block;
     -webkit-box-sizing: border-box;
@@ -2815,48 +2822,95 @@ div {
     padding: 0;
     margin: 0;
     letter-spacing: -0.025em; }
-  /* line 200, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 205, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__btn:hover, .frequest__btn:hover {
     background-color: #ca0202; }
 
+/* line 210, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.header__control {
+  position: absolute;
+  width: 55px;
+  top: 2px;
+  right: 15px;
+  z-index: 10;
+  overflow: hidden;
+  display: none; }
+
+/* line 220, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.header__ControlBtn {
+  padding: 0 5px;
+  margin: 0;
+  font-size: 12px;
+  font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
+  font-weight: bold;
+  border: 3px solid #00a6eb;
+  line-height: 30px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+  color: #e83a00;
+  background: none; }
+
+/* line 235, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+.header__ControlBtn:hover {
+  color: #fff; }
+
 @media (max-width: 1200px) {
-  /* line 206, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 240, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .intro {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center; }
 
-  /* line 211, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 245, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request {
     padding-left: 30px; }
  }
 
 @media (max-width: 992px) {
-  /* line 218, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 252, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .request__title {
     margin-top: 30px; }
 
-  /* line 222, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 256, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling {
     float: none;
     text-align: center; }
 
-  /* line 227, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 261, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__russia, .calling__number {
     display: inline;
     padding-right: 30px; }
  }
 
 @media (max-width: 768px) {
-  /* line 234, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 268, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling {
     float: none;
     text-align: center; }
 
-  /* line 239, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  /* line 273, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
   .calling__russia, .calling__number {
+    float: none;
     display: block;
     padding-right: 0; }
+
+  /* line 279, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .header__control {
+    display: block; }
+
+  /* line 283, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .nav__list {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0; }
+
+  /* line 292, D:/learn_HTML/projects/Kseniya/fortit/sass/header */
+  .nav__item {
+    display: block;
+    text-align: center; }
  }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/activities */

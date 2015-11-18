@@ -16,11 +16,11 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 
 /*весь скрипт карты, управляемый гугловским API*/
 
-  google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', init);
 var map;
 function init() {
   var mapOptions = {
-    center: new google.maps.LatLng(55.746342,37.588805),
+    center: new google.maps.LatLng(55.746342, 37.588805),
     zoom: 12,
     zoomControl: true,
     zoomControlOptions: {
@@ -35,7 +35,7 @@ function init() {
     scrollwheel: false,
     panControl: true,
     streetViewControl: true,
-    draggable : true,
+    draggable: true,
     overviewMapControl: true,
     overviewMapControlOptions: {
       opened: false,
@@ -48,11 +48,31 @@ function init() {
     ['Наша фирма Fortit', 'Ул. Плюшина. Дом 27. Парадный вход. 3 этаж', 'undefined', 'undefined', 'undefined', 55.7425737, 37.5780491, 'https://mapbuildr.com/assets/img/markers/default.png']
   ];
   for (i = 0; i < locations.length; i++) {
-    if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
-    if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
-    if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
-    if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
-    if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
+    if (locations[i][1] == 'undefined') {
+      description = '';
+    } else {
+      description = locations[i][1];
+    }
+    if (locations[i][2] == 'undefined') {
+      telephone = '';
+    } else {
+      telephone = locations[i][2];
+    }
+    if (locations[i][3] == 'undefined') {
+      email = '';
+    } else {
+      email = locations[i][3];
+    }
+    if (locations[i][4] == 'undefined') {
+      web = '';
+    } else {
+      web = locations[i][4];
+    }
+    if (locations[i][7] == 'undefined') {
+      markericon = '';
+    } else {
+      markericon = locations[i][7];
+    }
     marker = new google.maps.Marker({
       icon: markericon,
       position: new google.maps.LatLng(locations[i][5], locations[i][6]),
@@ -63,7 +83,8 @@ function init() {
       email: email,
       web: web
     });
-    link = '';            bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
+    link = '';
+    bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
   }
   function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
     var infoWindowVisible = (function () {
@@ -76,14 +97,14 @@ function init() {
       };
     }());
     iw = new google.maps.InfoWindow();
-    google.maps.event.addListener(marker, 'click', function() {
+    google.maps.event.addListener(marker, 'click', function () {
       if (infoWindowVisible()) {
         iw.close();
         infoWindowVisible(false);
       } else {
-        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4><p>"+desc+"<p></div>";
-        iw = new google.maps.InfoWindow({content:html});
-        iw.open(map,marker);
+        var html = "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>" + title + "</h4><p>" + desc + "<p></div>";
+        iw = new google.maps.InfoWindow({content: html});
+        iw.open(map, marker);
         infoWindowVisible(true);
       }
     });
@@ -134,8 +155,8 @@ window.onload = function () {
 
   /*---------Плавный переход по якорям----------*/
 
-  $(document).ready(function(){
-    $('a[href*=#]').bind("click", function(e){
+  $(document).ready(function () {
+    $('a[href*=#]').bind("click", function (e) {
       var anchor = $(this);
       $('html, body').stop().animate({
         scrollTop: $(anchor.attr('href')).offset().top
@@ -147,6 +168,42 @@ window.onload = function () {
 
   /*---------Плавный переход по якорям----------*/
 
+  /*--------показать\выключить меню---------------*/
+  var menuNav = document.querySelector(".nav__list");
+  var menuNavBtn = document.querySelector(".header__ControlBtn");
+  var navDiv = document.querySelector(".header__nav");
+
+  // управляет показом меню
+  $(menuNavBtn).click(function () {
+      var widthWindow = document.documentElement.clientWidth;
+      if (menuNav.style.display == "none") {
+        $(menuNav).collapse("show");
+      } else {
+        $(menuNav).collapse("hide");
+      }
+    }
+  );
+
+
+  function toShowMenu() {
+
+    var windowWidth = document.documentElement.clientWidth;
+    if (windowWidth >= 768) {
+      $(menuNav).collapse("hide");
+      var headerNav = document.querySelector(".header__nav");
+      $(headerNav).addClass("in");
+    }
+
+    if (windowWidth < 768) {
+      $(navDiv).removeClass("in");
+    }
+
+  }
+
+  toShowMenu();
+  $(window).resize(toShowMenu);
+// управляет показом меню
+  /*--------показать\выключить меню---------------*/
 };
 
 
