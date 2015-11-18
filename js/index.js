@@ -219,14 +219,40 @@ window.onload = function () {
   /*--------- modalVideo------------------------------*/
 
   /*-----------------------slider------------------------*/
-  //
-  //$('.rvSlider__inner').slick({
-  //  dots: true,
-  //  infinite: true,
-  //  speed: 300,
-  //  slidesToShow: 1,
-  //  adaptiveHeight: true
-  //});
+
+  $('.rcmSlider__inner').slick({
+    appendArrows:$('.rcmSlider'),
+    accessibility:true,
+    dots: false,
+    infinite: true,
+    autoplay:true,
+    speed: 300,
+    autoplaySpeed:7000,
+    draggable:true,
+    arrows:true,
+    useCSS:true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    waitForAnimate:true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
 
 
 

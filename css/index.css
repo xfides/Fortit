@@ -3442,7 +3442,7 @@ td.text-left span {
   background-repeat: repeat;
   background-position: 0 0;
   color: #fff;
-  padding-bottom: 65px; }
+  padding-bottom: 100px; }
 
 /* line 10, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
 .recommend__title {
@@ -3458,6 +3458,132 @@ td.text-left span {
   .recommend__title__boldWord {
     font-family: "open_sansbold", "Tahoma", "Geneva", sans-serif;
     font-weight: bold; }
+/* line 25, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.recommend__img {
+  width: 140px;
+  height: 140px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+/* line 32, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.recommend__name {
+  color: #fff;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 26px;
+  padding-top: 0;
+  margin-top: 0; }
+/* line 41, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.recommend__post {
+  color: #fff;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  margin-bottom: 40px; }
+/* line 51, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.recommend__comment {
+  color: #828891;
+  font-family: "open_sanslight", "Tahoma", "Geneva", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 28px;
+  padding-top: 0;
+  margin-top: 0;
+  width: 95%;
+  margin-bottom: 90px;
+  padding-right: 20px;
+  clear: both; }
+
+/* line 67, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.rcmSlider {
+  position: relative; }
+
+/* line 70, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.recommend__slider::after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #7f8893;
+  position: absolute;
+  content: ' ';
+  z-index: 1000;
+  left: 0;
+  bottom: 0; }
+
+/* line 82, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.rcmSlider__slide {
+  padding-right: 30px; }
+
+/* line 89, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 92%;
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin-top: -10px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: #828891;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
+
+/* line 115, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.slick-prev:before {
+  display: inline;
+  content: '\f053';
+  font-size: 28px;
+  line-height: 28px;
+  color: #fff;
+  font-family: FontAwesome;
+  margin-left: -5px;
+  cursor: pointer; }
+
+/* line 126, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.slick-next:before {
+  display: inline;
+  content: '\f054';
+  font-size: 28px;
+  line-height: 28px;
+  color: #fff;
+  font-family: FontAwesome;
+  margin-right: -5px;
+  cursor: pointer; }
+
+/* line 137, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.slick-next {
+  right: 0; }
+
+/* line 141, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+.slick-dots li {
+  display: none; }
+
+@media (max-width: 768px) {
+  /* line 147, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  .recommend__ing {
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 0; }
+
+  /* line 154, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  .rcmSlider__slide {
+    padding-right: 5px; }
+
+  /* line 157, D:/learn_HTML/projects/Kseniya/fortit/sass/recommend */
+  .recommend__comment {
+    padding-right: 0; }
+ }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/team */
 .wrapTeam {
