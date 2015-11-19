@@ -295,6 +295,19 @@ $('.toOpenModalForm').colorbox({
   width: "90%"
 });
 
+$('.toOpenModalForm2').colorbox({
+  inline: true,
+  href:"#toOrderVideoModal2",
+  maxWidth: "640px",
+  width: "90%"
+});
+
+$('.toOpenModalForm3').colorbox({
+  inline: true,
+  href:"#toOrderVideoModal3",
+  maxWidth: "640px",
+  width: "90%"
+});
 
 /*--------- modalVideo------------------------------*/
 

@@ -3962,10 +3962,11 @@ td.text-left span {
  }
 
 /* line 1, D:/learn_HTML/projects/Kseniya/fortit/sass/modalForm */
-.modalForm {
+.modalForm, .modalForm2, .modalForm3 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
-  padding-top: 50px; }
+  padding-top: 50px;
+  display: none; }
 
 /* line 8, D:/learn_HTML/projects/Kseniya/fortit/sass/modalForm */
 .requestModal {
