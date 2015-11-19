@@ -377,9 +377,9 @@ $('.checkingJS').each(function () {
        * PS. За эту свалку JS тоже прошу прощения. Клиент хотел побыстрее.
       * */
 
-      setTimeout(function () {
-        form.submit();
-      },3000);
+      //setTimeout(function () {
+      //  form.submit();
+      //},3000);
 
     }
   });
