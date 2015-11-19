@@ -133,18 +133,18 @@
           </div>
           <!-- /.col-sm-7 -->
           <div class="col-sm-12 col-md-5">
-            <form action="#" class="request" id="toOrderVideo">
+            <form action="#" class="request checkingJS" id="toOrderVideo">
               <h2 class="request__title">
                 Оставить заявку
               </h2>
               <!-- /.request__title -->
               <input type="text" placeholder="Представьтесь, пожалуйста"
-                     class="request__input">
+                     class="request__input rfield" required>
               <input type="text" placeholder="Электропочта для ответа"
-                     class="request__input">
+                     class="request__input rfield" required>
               <input type="tel" placeholder="Номер телефона для быстрой связи"
-                     class="request__input">
-              <button class="request__btn toOpenModalForm3">
+                     class="request__input rfield" required>
+              <button class="request__btn toOpenModalForm3 btn_submit" type="submit">
                 Заказать видео ролик
               </button>
               <!-- /.request__btn -->
@@ -1469,16 +1469,16 @@
           </div>
           <!-- /.col-md-4 col-xs-12 -->
           <div class="col-md-4 col-xs-12 innerPaddingOff">
-            <form action="#" class="footer__request frequest">
+            <form action="#" class="footer__request frequest checkingJS">
               <h2 class="frequest__title">
                 Остались вопросы?
               </h2>
               <!-- /.request__title -->
-              <input class="frequest__input" type="text"
-                     placeholder="Представьтесь, пожалуйста">
-              <input class="frequest__input" type="tel"
-                     placeholder="Номер телефона для быстрой связи">
-              <button class="frequest__btn toOpenModalForm3">
+              <input class="frequest__input rfield" type="text"
+                     placeholder="Представьтесь, пожалуйста" required>
+              <input class="frequest__input rfield" type="tel"
+                     placeholder="Номер телефона для быстрой связи" required>
+              <button class="frequest__btn toOpenModalForm3 btn_submit" type="submit">
                 Перезвоните мне
               </button>
               <!-- /.frequest__btn -->
@@ -1504,18 +1504,18 @@
   <!-- Button to scrollUP -->
 
   <div class="modalForm">
-    <form action="#" class="request requestModal" id="toOrderVideoModal">
+    <form action="#" class="request requestModal checkingJS" id="toOrderVideoModal">
       <h2 class="request__title">
         Оставьте заявку! Мы вам перезвоним!
       </h2>
       <!-- /.request__title -->
       <input type="text" placeholder="Представьтесь, пожалуйста"
-             class="request__input">
+             class="request__input rfield" required>
       <input type="text" placeholder="Электропочта для ответа"
-             class="request__input">
+             class="request__input rfield" required>
       <input type="tel" placeholder="Номер телефона для быстрой связи"
-             class="request__input">
-      <button class="request__btn toOpenModalForm3">
+             class="request__input rfield" required>
+      <button class="request__btn toOpenModalForm3 btn_submit" type="submit">
         Заказать видео ролик
       </button>
       <!-- /.request__btn -->
@@ -1525,17 +1525,17 @@
   <!-- /.modalForm -->
 
   <div class="modalForm2">
-    <form action="#" class="footer__request frequest requestModal"
+    <form action="#" class="footer__request frequest requestModal checkingJS"
           id="toOrderVideoModal2">
       <h2 class="frequest__title">
         Остались вопросы?
       </h2>
       <!-- /.request__title -->
-      <input class="frequest__input" type="text"
-             placeholder="Представьтесь, пожалуйста">
-      <input class="frequest__input" type="tel"
-             placeholder="Номер телефона для быстрой связи">
-      <button class="frequest__btn toOpenModalForm3">
+      <input class="frequest__input rfield" type="text"
+             placeholder="Представьтесь, пожалуйста" required>
+      <input class="frequest__input rfield" type="tel"
+             placeholder="Номер телефона для быстрой связи" required>
+      <button class="frequest__btn toOpenModalForm3 btn_submit" type="submit">
         Перезвоните мне
       </button>
       <!-- /.frequest__btn -->

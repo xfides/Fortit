@@ -288,16 +288,16 @@ $('.youtube').colorbox({
   height: "390px"
 });
 
-$('.toOpenModalForm').colorbox({
+$('.toOpenModalForm2').colorbox({
   inline: true,
-  href:"#toOrderVideoModal",
+  href: "#toOrderVideoModal2",
   maxWidth: "640px",
   width: "90%"
 });
 
-$('.toOpenModalForm2').colorbox({
+$('.toOpenModalForm').colorbox({
   inline: true,
-  href:"#toOrderVideoModal2",
+  href:"#toOrderVideoModal",
   maxWidth: "640px",
   width: "90%"
 });
@@ -310,6 +310,79 @@ $('.toOpenModalForm3').colorbox({
 });
 
 /*--------- modalVideo------------------------------*/
+
+
+/*----- checking forms------------------------------*/
+
+$('.checkingJS').each(function () {
+  // Объявляем переменные (форма и кнопка отправки)
+  var form = $(this),
+    btn = form.find('.btn_submit');
+
+  // Добавляем каждому проверяемому полю, указание что поле пустое
+  form.find('.rfield').addClass('empty_field');
+
+  // Функция проверки полей формы
+  function checkInput() {
+    form.find('.rfield').each(function () {
+      if ($(this).val() != '') {
+        // Если поле не пустое удаляем класс-указание
+        $(this).removeClass('empty_field');
+      } else {
+        // Если поле пустое добавляем класс-указание
+        $(this).addClass('empty_field');
+      }
+    });
+  }
+
+  // Функция подсветки незаполненных полей
+  function lightEmpty() {
+    form.find('.empty_field').css({'background-color': '#d8512d'});
+    // Через полсекунды удаляем подсветку
+    setTimeout(function () {
+      form.find('.empty_field').removeAttr('style');
+    }, 500);
+  }
+
+  // Проверка в режиме реального времени
+  setInterval(function () {
+    // Запускаем функцию проверки полей на заполненность
+    checkInput();
+    // Считаем к-во незаполненных полей
+    var sizeEmpty = form.find('.empty_field').size();
+    // Вешаем условие-тригер на кнопку отправки формы
+    if (sizeEmpty > 0) {
+      if (btn.hasClass('disabled')) {
+        return false
+      } else {
+        btn.addClass('disabled')
+      }
+    } else {
+      btn.removeClass('disabled')
+    }
+  }, 500);
+
+  // Событие клика по кнопке отправить
+  btn.click(function () {
+    if ($(this).hasClass('disabled')) {
+      // подсвечиваем незаполненные поля и форму не отправляем, если есть
+      // незаполненные поля
+      lightEmpty();
+      return false
+    } else {
+      // Все хорошо, все заполнено, отправляем форму
+      //
+      //setTimeout(function () {
+      //  form.submit();
+      //},3000);
+
+
+    }
+  });
+});
+
+
+/*----- checking forms------------------------------*/
 
 
 
